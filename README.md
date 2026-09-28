@@ -18,6 +18,14 @@ npm run dev                  # http://localhost:3000
 | `npm test` | Hesaplama araçlarının birim testleri (vitest) |
 | `node scripts/rehber/derle.mjs` | Adliye/cezaevi telefon rehberini resmî sitelerden yeniden derler |
 
+## Yayın
+
+- Repo: `Emirtariksahin/akis-partners` — `main` dalına yapılan her push Vercel'de production yayını başlatır;
+  diğer dallar önizleme (preview) yayını alır.
+- Vercel ortam değişkenleri: `APP_URL`, `NEXT_PUBLIC_KEYSTATIC_GITHUB_REPO`, `RESEND_API_KEY`, `CONTACT_TO`, `CONTACT_FROM`
+  ve Keystatic GitHub App değerleri (`KEYSTATIC_GITHUB_CLIENT_ID`, `KEYSTATIC_GITHUB_CLIENT_SECRET`, `KEYSTATIC_SECRET`,
+  `NEXT_PUBLIC_KEYSTATIC_GITHUB_APP_SLUG`). Açıklamalar `.env.example` içinde.
+
 ## İçerik yönetimi (Keystatic)
 
 Yönetim paneli: **`/keystatic`**. Geliştirme ortamında içerik doğrudan `content/` klasörüne yazılır.
