@@ -5,6 +5,28 @@ import { hesaplamaParametreleriSchema } from "./lib/calculators/params-schema";
 // Üretimde içerik GitHub reposuna commit edilir; repo tanımlı değilse yerel dosya sistemi kullanılır.
 const githubRepo = process.env.NEXT_PUBLIC_KEYSTATIC_GITHUB_REPO as `${string}/${string}` | undefined;
 
+// Sayfa adresleri (slug) Türkçe karakter ve boşluk içermemeli; aksi hâlde sayfa ve görsel yolları bozulur.
+export function turkceSlug(metin: string) {
+  return metin
+    .toLocaleLowerCase("tr")
+    .replace(/ç/g, "c").replace(/ğ/g, "g").replace(/ı/g, "i").replace(/ö/g, "o").replace(/ş/g, "s").replace(/ü/g, "u")
+    .replace(/â/g, "a").replace(/î/g, "i").replace(/û/g, "u")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+const ADRES_KALIBI = {
+  regex: /^[a-z0-9]+(?:-[a-z0-9]+)*$/,
+  message: "Adres yalnızca küçük harf (Türkçe karakter olmadan), rakam ve tire içerebilir. Örn: yagiz-mete",
+};
+
+const adres = (generate: (ad: string) => string = turkceSlug) => ({
+  label: "Adres (sayfa bağlantısı)",
+  description: "Addan otomatik üretilir; elle değiştirmeniz gerekmez.",
+  generate,
+  validation: { pattern: ADRES_KALIBI },
+});
+
 const kaynakListesi = fields.array(
   fields.object({
     ad: fields.text({ label: "Kaynak adı" }),
@@ -32,7 +54,7 @@ export default config({
       entryLayout: "content",
       columns: ["baslik", "tarih"],
       schema: {
-        baslik: fields.slug({ name: { label: "Başlık", validation: { isRequired: true } } }),
+        baslik: fields.slug({ name: { label: "Başlık", validation: { isRequired: true } }, slug: adres() }),
         tarih: fields.date({ label: "Yayın tarihi", defaultValue: { kind: "today" }, validation: { isRequired: true } }),
         yayinda: fields.checkbox({ label: "Yayında", description: "İşaretli değilse makale sitede görünmez.", defaultValue: true }),
         ozet: fields.text({ label: "Özet", multiline: true, validation: { isRequired: true, length: { max: 320 } } }),
@@ -53,7 +75,7 @@ export default config({
       format: { contentField: "icerik" },
       columns: ["baslik", "kategori"],
       schema: {
-        baslik: fields.slug({ name: { label: "Başlık", validation: { isRequired: true } } }),
+        baslik: fields.slug({ name: { label: "Başlık", validation: { isRequired: true } }, slug: adres() }),
         kategori: fields.select({
           label: "Kategori",
           options: FAALIYET_KATEGORILERI.map((k) => ({ label: k.label, value: k.value })),
@@ -80,7 +102,7 @@ export default config({
       format: { contentField: "ozgecmis" },
       columns: ["ad", "unvan"],
       schema: {
-        ad: fields.slug({ name: { label: "Ad Soyad (\"Av.\" olmadan)", validation: { isRequired: true } } }),
+        ad: fields.slug({ name: { label: "Ad Soyad (\"Av.\" olmadan)", validation: { isRequired: true } }, slug: adres() }),
         unvan: fields.text({ label: "Unvan", defaultValue: "Avukat" }),
         sira: fields.integer({ label: "Sıra", defaultValue: 0 }),
         foto: fields.image({ label: "Fotoğraf", directory: "public/images/ekip", publicPath: "/images/ekip/" }),
@@ -105,10 +127,7 @@ export default config({
       schema: {
         madde: fields.slug({
           name: { label: "Madde (örn. 47/1-d)", validation: { isRequired: true } },
-          slug: {
-            label: "Adres",
-            generate: (name) => "ktk-" + name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, ""),
-          },
+          slug: adres((name) => "ktk-" + turkceSlug(name)),
         }),
         baslik: fields.text({ label: "Kısa başlık", validation: { isRequired: true } }),
         grup: fields.select({
@@ -144,7 +163,7 @@ export default config({
       slugField: "baslik",
       format: { contentField: "icerik" },
       schema: {
-        baslik: fields.slug({ name: { label: "Başlık", validation: { isRequired: true } } }),
+        baslik: fields.slug({ name: { label: "Başlık", validation: { isRequired: true } }, slug: adres() }),
         sonGuncelleme: fields.date({ label: "Son güncelleme" }),
         icerik: fields.markdoc({ label: "Metin" }),
       },
