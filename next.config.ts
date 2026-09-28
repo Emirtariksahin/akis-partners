@@ -3,6 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   transpilePackages: ["motion"],
+  // Keystatic GitHub modunda paneli 127.0.0.1 adresine yönlendirir; geliştirme sunucusu bu kökene izin vermeli.
+  allowedDevOrigins: ["127.0.0.1"],
   async redirects() {
     return [
       // Eski prototip adresi. TBB Reklam Yasağı Yönetmeliği uyarınca "uzmanlık" ifadesi kullanılmıyor.

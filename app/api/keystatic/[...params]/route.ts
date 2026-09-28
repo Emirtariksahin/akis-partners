@@ -2,8 +2,10 @@ import { makeRouteHandler } from "@keystatic/next/route-handler";
 import config from "../../../../keystatic.config";
 
 // GitHub modunda Keystatic, GitHub App anahtarları olmadan derlemeyi durdurur. Anahtarlar Vercel'e
-// eklenene kadar site yayına alınabilsin diye panel API'si bu durumda 503 döndürür.
+// eklenene kadar site yayına alınabilsin diye üretimde panel API'si bu durumda 503 döndürür.
+// Geliştirmede kapatılmaz; Keystatic'in GitHub App kurulum ekranı bu API'yi kullanır.
 const githubAyarlariEksik =
+  process.env.NODE_ENV === "production" &&
   config.storage.kind === "github" &&
   (!process.env.KEYSTATIC_GITHUB_CLIENT_ID || !process.env.KEYSTATIC_GITHUB_CLIENT_SECRET || !process.env.KEYSTATIC_SECRET);
 
