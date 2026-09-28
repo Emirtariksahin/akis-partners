@@ -48,7 +48,7 @@ export function HeroSection() {
               transition={{ delay: 0.5, duration: 0.6 }}
               className="font-sans text-sm md:text-base opacity-70 max-w-lg mb-12 leading-relaxed"
             >
-              Ankara merkezli; Türkiye genelinde bireysel ve kurumsal müvekkillere stratejik avukatlık ve hukuki danışmanlık hizmetleri.
+              Ankara merkezli büromuz, bireysel ve kurumsal müvekkillere avukatlık ve hukuki danışmanlık hizmeti sunar.
             </motion.p>
 
             <motion.div
@@ -57,11 +57,11 @@ export function HeroSection() {
               transition={{ delay: 0.65, duration: 0.6 }}
               className="flex flex-wrap items-center gap-6"
             >
-              <MagneticButton href="/iletisim" variant="primary" showArrow data-cursor-text="RANDEVU">
-                Ücretsiz Ön Görüşme
+              <MagneticButton href="/iletisim" variant="primary" showArrow>
+                Görüşme Talep Edin
               </MagneticButton>
-              <MagneticButton href="/uzmanlik-alanlari" variant="outline" data-cursor-text="KEŞFET">
-                Uzmanlık Alanlarını Keşfet
+              <MagneticButton href="/faaliyet-alanlari" variant="outline">
+                Faaliyet Alanlarımız
               </MagneticButton>
             </motion.div>
           </div>
@@ -78,17 +78,6 @@ export function HeroSection() {
 
         </div>
       </div>
-
-      {/* Scroll göstergesi */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.8, duration: 0.8 }}
-        className="absolute bottom-12 left-6 md:left-12 flex items-center gap-4 text-xs font-sans tracking-widest uppercase opacity-50"
-      >
-        <span className="w-[1px] h-12 bg-current" />
-        <span style={{ writingMode: 'vertical-rl' }}>KEŞFETMEK İÇİN KAYDIRIN</span>
-      </motion.div>
     </section>
   );
 }

@@ -1,17 +1,17 @@
 "use client";
 
 import { useRef } from "react";
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion, useScroll, useTransform, type MotionValue } from "motion/react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Float } from "@react-three/drei";
 import { useTheme } from "next-themes";
 import * as THREE from "three";
 
 const REASONS = [
-  { id: "01", title: "Stratejik Yaklaşım", desc: "Sadece mevcut durumu değil, 3 adım sonrasını planlıyoruz." },
+  { id: "01", title: "Stratejik Yaklaşım", desc: "Yalnızca mevcut durumu değil, sürecin olası sonraki aşamalarını da birlikte değerlendiriyoruz." },
   { id: "02", title: "Şeffaf İletişim", desc: "Karmaşık hukuki jargonu net, anlaşılır ve eyleme geçirilebilir bilgiye dönüştürüyoruz." },
   { id: "03", title: "Disiplinler Arası Bakış", desc: "Ticari gerçeklikleri ve sektör dinamiklerini hukuki analizle harmanlıyoruz." },
-  { id: "04", title: "Sonuç Odaklı Temsil", desc: "Müvekkil hedeflerine en güvenli ve en hızlı yoldan ulaşmayı hedefliyoruz." },
+  { id: "04", title: "Düzenli Bilgilendirme", desc: "Dosyanın her aşamasında müvekkilimizi gelişmeler ve seçenekler hakkında düzenli olarak bilgilendiriyoruz." },
 ];
 
 /* ─── Tokmak + Halkalar (Canvas İÇİNDE render edilir) ─── */
@@ -126,7 +126,7 @@ function GavelScene() {
   );
 }
 
-function ReasonItem({ reason, index, total, scrollYProgress }: { reason: any, index: number, total: number, scrollYProgress: any }) {
+function ReasonItem({ reason, index, total, scrollYProgress }: { reason: (typeof REASONS)[number], index: number, total: number, scrollYProgress: MotionValue<number> }) {
   const start = index * 0.25;
   const end = start + 0.25;
   

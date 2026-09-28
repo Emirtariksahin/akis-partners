@@ -6,48 +6,44 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const EXPERTISE_AREAS = [
-  { id: "01", title: "Ceza Hukuku", desc: "Karmaşık ceza soruşturmaları ve davalarında stratejik savunma." },
-  { id: "02", title: "İdare Hukuku", desc: "İdari işlemlere karşı iptal ve tam yargı davaları." },
-  { id: "03", title: "Ticaret & Şirketler Hukuku", desc: "Şirket kuruluşları, birleşme ve devralmalar, ticari sözleşmeler." },
-  { id: "04", title: "Aile Hukuku", desc: "Boşanma, mal paylaşımı ve velayet süreçlerinde hassas temsil." },
-  { id: "05", title: "İş Hukuku", desc: "İşçi-işveren uyuşmazlıkları ve işe iade süreçleri." },
-  { id: "06", title: "Gayrimenkul Hukuku", desc: "Tapu iptali, tescil ve kentsel dönüşüm süreçleri." },
-  { id: "07", title: "Miras Hukuku", desc: "Miras taksimi, vasiyetname ve tenkis davaları." },
-  { id: "08", title: "Bilişim Hukuku", desc: "KVKK, e-ticaret, siber suçlar ve IT projeleri." },
-];
+type Kategori = { id: string; value: string; title: string; alanlar: { slug: string; baslik: string }[] };
 
-export function ExpertiseSection() {
+export function ExpertiseSection({ kategoriler, toplamAlan }: { kategoriler: Kategori[]; toplamAlan: number }) {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
   return (
     <section className="py-24 md:py-48 px-6 md:px-12 bg-surface relative">
       <div className="container mx-auto flex flex-col lg:flex-row gap-16 relative">
-        {/* Sticky Title Area */}
+        {/* Yapışkan başlık alanı */}
         <div className="w-full lg:w-1/3 relative">
           <div className="sticky top-48">
-            <h2 className="font-sans text-xs tracking-widest uppercase text-accent mb-6">Uzmanlık Alanları</h2>
+            <h2 className="font-sans text-xs tracking-widest uppercase text-accent mb-6">Faaliyet Alanlarımız</h2>
             <h3 className="font-serif text-[clamp(2rem,3vw,3rem)] leading-[1.1] tracking-tight mb-8">
-              Her alanda spesifik <br />
-              derinlik, bütünsel <br />
-              <span className="italic">strateji.</span>
+              Bireysel ve kurumsal <br />
+              ihtiyaçlara <span className="italic">bütünsel bakış.</span>
             </h3>
-            <p className="font-sans text-sm opacity-70 max-w-sm mb-12">
-              Karmaşık hukuki meseleleri alanında uzman kadromuzla, sektör dinamiklerini gözeterek çözümlüyoruz.
+            <p className="font-sans text-sm opacity-70 max-w-sm mb-10">
+              Kurumsal danışmanlıktan dava takibine, aile hukukundan bilişim hukukuna uzanan {toplamAlan} faaliyet alanında
+              hukuki destek sunuyoruz.
             </p>
+            <Link
+              href="/faaliyet-alanlari"
+              className="group inline-flex items-center gap-2 font-sans text-xs uppercase tracking-widest hover:text-accent transition-colors"
+            >
+              Tüm faaliyet alanları <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
+            </Link>
           </div>
         </div>
 
-        {/* Interactive List Area */}
+        {/* Kategori listesi */}
         <div className="w-full lg:w-2/3" onMouseLeave={() => setHoveredIndex(null)}>
           <div className="border-t border-border">
-            {EXPERTISE_AREAS.map((area, index) => (
-              <div 
-                key={area.id}
+            {kategoriler.map((kategori, index) => (
+              <div
+                key={kategori.value}
                 className="group relative border-b border-border overflow-hidden"
                 onMouseEnter={() => setHoveredIndex(index)}
               >
-                {/* Hover Background Fill */}
                 <motion.div
                   className="absolute inset-0 bg-accent/5"
                   initial={{ height: 0 }}
@@ -55,28 +51,33 @@ export function ExpertiseSection() {
                   transition={{ duration: 0.4, ease: "easeInOut" }}
                 />
 
-                <Link 
-                  href={`/uzmanlik-alanlari#${area.id}`}
+                <Link
+                  href={`/faaliyet-alanlari#${kategori.value}`}
                   className="relative flex flex-col md:flex-row md:items-center py-8 md:py-12 px-4 gap-4 md:gap-12 z-10"
-                  data-cursor-text="İNCELE"
                 >
-                  <span className={cn(
-                    "font-sans text-xs tracking-widest transition-colors duration-300",
-                    hoveredIndex === index ? "text-accent" : "text-foreground/40"
-                  )}>
-                    {area.id}
+                  <span
+                    className={cn(
+                      "font-sans text-xs tracking-widest transition-colors duration-300",
+                      hoveredIndex === index ? "text-accent" : "text-foreground/40",
+                    )}
+                  >
+                    {kategori.id}
                   </span>
-                  
+
                   <div className="flex-1">
-                    <h4 className={cn(
-                      "font-serif text-3xl md:text-5xl tracking-tight transition-all duration-500",
-                      hoveredIndex === index ? "md:translate-x-4 text-accent" : ""
-                    )}>
-                      {area.title}
+                    <h4
+                      className={cn(
+                        "font-serif text-3xl md:text-5xl tracking-tight transition-all duration-500",
+                        hoveredIndex === index ? "md:translate-x-4 text-accent" : "",
+                      )}
+                    >
+                      {kategori.title}
                     </h4>
+                    <p className="font-sans text-xs tracking-widest uppercase opacity-50 mt-3 md:hidden">
+                      {kategori.alanlar.length} alan
+                    </p>
                   </div>
 
-                  {/* Desktop Hover Info */}
                   <div className="hidden md:block w-1/3 overflow-hidden h-16 relative">
                     <AnimatePresence mode="wait">
                       {hoveredIndex === index && (
@@ -88,8 +89,8 @@ export function ExpertiseSection() {
                           transition={{ duration: 0.3 }}
                           className="absolute inset-0 flex items-center"
                         >
-                          <p className="text-xs font-sans opacity-70 line-clamp-2">
-                            {area.desc}
+                          <p className="text-xs font-sans opacity-70 line-clamp-3">
+                            {kategori.alanlar.map((a) => a.baslik).join(" · ")}
                           </p>
                         </motion.div>
                       )}
@@ -100,13 +101,18 @@ export function ExpertiseSection() {
                     <ArrowRight className="w-5 h-5 -rotate-45 group-hover:rotate-0 transition-transform duration-300" />
                   </div>
                 </Link>
-                
-                {/* Mobile Info */}
-                <div className="md:hidden px-4 pb-8 -mt-4 opacity-70 text-sm">
-                  {area.desc}
-                  <Link href={`/uzmanlik-alanlari#${area.id}`} className="flex items-center gap-2 mt-4 text-accent text-xs uppercase tracking-widest">
-                    Alanı İncele <ArrowRight className="w-3 h-3" />
-                  </Link>
+
+                {/* Mobil: alan listesi */}
+                <div className="md:hidden px-4 pb-8 -mt-2 flex flex-wrap gap-2">
+                  {kategori.alanlar.map((a) => (
+                    <Link
+                      key={a.slug}
+                      href={`/faaliyet-alanlari/${a.slug}`}
+                      className="font-sans text-xs border border-border px-3 py-1.5 hover:border-accent hover:text-accent transition-colors"
+                    >
+                      {a.baslik}
+                    </Link>
+                  ))}
                 </div>
               </div>
             ))}

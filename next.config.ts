@@ -1,32 +1,14 @@
-import type {NextConfig} from 'next';
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  turbopack: {},
-  typescript: {
-    ignoreBuildErrors: false,
-  },
-  // Allow access to remote image placeholder.
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'picsum.photos',
-        port: '',
-        pathname: '/**', // This allows any path under the hostname
-      },
-    ],
-  },
-  transpilePackages: ['motion'],
-  webpack: (config, {dev}) => {
-    // HMR is disabled in AI Studio via DISABLE_HMR env var.
-    // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
-    if (dev && process.env.DISABLE_HMR === 'true') {
-      config.watchOptions = {
-        ignored: /.*/,
-      };
-    }
-    return config;
+  transpilePackages: ["motion"],
+  async redirects() {
+    return [
+      // Eski prototip adresi. TBB Reklam Yasağı Yönetmeliği uyarınca "uzmanlık" ifadesi kullanılmıyor.
+      { source: "/uzmanlik-alanlari", destination: "/faaliyet-alanlari", permanent: true },
+      { source: "/uzmanlik-alanlari/:slug", destination: "/faaliyet-alanlari/:slug", permanent: true },
+    ];
   },
 };
 

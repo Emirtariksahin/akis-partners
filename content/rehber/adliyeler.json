@@ -1,0 +1,1842 @@
+{
+  "guncelleme": "2026-09-28",
+  "kaynak": "Adliyelerin resmî *.adalet.gov.tr siteleri",
+  "kayitlar": [
+    {
+      "id": "adana",
+      "tur": "adliye",
+      "il": "Adana",
+      "ad": "Adana Adliyesi",
+      "adres": "Kazım Karabekir Mahallesi Mustafa Kemal Paşa Bulvarı No:29 Yüreğir/ADANA",
+      "telefonlar": [
+        "0 (322) 355 05 00"
+      ],
+      "faks": "0 (322) 355 05 25",
+      "web": "https://adana.adalet.gov.tr"
+    },
+    {
+      "id": "ceyhan",
+      "tur": "adliye",
+      "il": "Adana",
+      "ad": "Ceyhan Adliyesi",
+      "adres": "Atatürk Mah. Doktor Mahir Alp Boydak Bulvarı No:30 CEYHAN / ADANA",
+      "telefonlar": [
+        "0 (322) 613 10 03",
+        "0 (322) 613 92 19"
+      ],
+      "faks": "0 (322) 613 75 01",
+      "web": "https://ceyhan.adalet.gov.tr"
+    },
+    {
+      "id": "adiyaman",
+      "tur": "adliye",
+      "il": "Adıyaman",
+      "ad": "Adıyaman Adliyesi",
+      "adres": "Yavuz Selim Mahallesi Müftülük Caddesi No:1 02040 Adıyaman /Merkez",
+      "telefonlar": [
+        "0 (416) 216 37 21"
+      ],
+      "faks": "0 (416) 216 12 40",
+      "web": "https://adiyaman.adalet.gov.tr"
+    },
+    {
+      "id": "afyonkarahisar",
+      "tur": "adliye",
+      "il": "Afyonkarahisar",
+      "ad": "Afyonkarahisar Adliyesi",
+      "adres": "İstiklal Mahallesi Zübeyde Hanım Caddesi No : 1 Afyonkarahisar",
+      "telefonlar": [
+        "0 (272) 216 90 03",
+        "0 (272) 216 69 78"
+      ],
+      "faks": "0 (272) 217 37 96",
+      "web": "https://afyonkarahisar.adalet.gov.tr"
+    },
+    {
+      "id": "bolvadin",
+      "tur": "adliye",
+      "il": "Afyonkarahisar",
+      "ad": "Bolvadin Adliyesi",
+      "adres": "Emrullah Mahallesi Şehitler Caddesi No:126 03300 Bolvadin/Afyonkarahisar",
+      "telefonlar": [
+        "0 (272) 612 65 65"
+      ],
+      "faks": "0 (272) 612 65 69",
+      "web": "https://bolvadin.adalet.gov.tr"
+    },
+    {
+      "id": "agri",
+      "tur": "adliye",
+      "il": "Ağrı",
+      "ad": "Ağrı Adliyesi",
+      "adres": "Yavuz Mahallesi Erzurum Bulvarı No:16 Pk.04100 Merkez / AĞRI",
+      "telefonlar": [
+        "0 (472) 215 15 86",
+        "0 (472) 215 13 70"
+      ],
+      "faks": "0 (472) 215 30 15",
+      "web": "https://agri.adalet.gov.tr"
+    },
+    {
+      "id": "dogubayazit",
+      "tur": "adliye",
+      "il": "Ağrı",
+      "ad": "Doğubayazıt Adliyesi",
+      "adres": "İSHAK PAŞA SARAYI YOLU ÜZERİ DOĞUBAYAZIT / AĞRI",
+      "telefonlar": [
+        "0 (472) 312 60 15",
+        "0 (472) 312 60 83"
+      ],
+      "faks": "0 (472) 312 60 31",
+      "web": "https://dogubayazit.adalet.gov.tr"
+    },
+    {
+      "id": "patnos",
+      "tur": "adliye",
+      "il": "Ağrı",
+      "ad": "Patnos Adliyesi",
+      "adres": "Atatürk Mah. Atatürk Cad. No:368 Patnos /Ağrı",
+      "telefonlar": [
+        "0 (472) 616 30 17",
+        "0 (472) 616 10 90"
+      ],
+      "faks": "0 (472) 616 44 80",
+      "web": "https://patnos.adalet.gov.tr"
+    },
+    {
+      "id": "aksaray",
+      "tur": "adliye",
+      "il": "Aksaray",
+      "ad": "Aksaray Adliyesi",
+      "adres": "Ebulfeyz Elçibey Caddesi",
+      "telefonlar": [
+        "0 (382) 216 03 03"
+      ],
+      "faks": "0 (382) 216 03 10",
+      "web": "https://aksaray.adalet.gov.tr"
+    },
+    {
+      "id": "amasya",
+      "tur": "adliye",
+      "il": "Amasya",
+      "ad": "Amasya Adliyesi",
+      "adres": "55 Evler Mah. Mehmet Varinli Cad. Adalet Sarayı No:105",
+      "telefonlar": [
+        "0 (358) 218 41 50"
+      ],
+      "faks": null,
+      "web": "https://amasya.adalet.gov.tr"
+    },
+    {
+      "id": "ankara",
+      "tur": "adliye",
+      "il": "Ankara",
+      "ad": "Ankara Adliyesi",
+      "adres": "Hacı Bayram Veli Mahallesi Atatürk Bulvarı No:40 Sıhhiye/Ankara",
+      "telefonlar": [
+        "0 (312) 509 31 80",
+        "0 (312) 309 45 70"
+      ],
+      "faks": null,
+      "web": "https://ankara.adalet.gov.tr"
+    },
+    {
+      "id": "ankarabati",
+      "tur": "adliye",
+      "il": "Ankara",
+      "ad": "Ankara Batı Adliyesi",
+      "adres": "Oğuzlar Mahallesi Prof. Dr. Necmettin Erbakan Caddesi No: 52 Etimesgut/ANKARA",
+      "telefonlar": [
+        "0 (312) 246 40 00"
+      ],
+      "faks": null,
+      "web": "https://ankarabati.adalet.gov.tr"
+    },
+    {
+      "id": "polatli",
+      "tur": "adliye",
+      "il": "Ankara",
+      "ad": "Polatlı Adliyesi",
+      "adres": "Esentepe Mah. Mevlana Cad. No:12 06900 Polatlı/ANKARA",
+      "telefonlar": [
+        "0 (312) 623 76 05"
+      ],
+      "faks": "0 (312) 623 19 86",
+      "web": "https://polatli.adalet.gov.tr"
+    },
+    {
+      "id": "antalya",
+      "tur": "adliye",
+      "il": "Antalya",
+      "ad": "Antalya Adliyesi",
+      "adres": "Meltem Mah. Dumlupınar Blv. Muratpaşa/Antalya",
+      "telefonlar": [
+        "0 (242) 246 30 00",
+        "0 (242) 245 34 00",
+        "0 (242) 201 38 00"
+      ],
+      "faks": null,
+      "web": "https://antalya.adalet.gov.tr"
+    },
+    {
+      "id": "elmali",
+      "tur": "adliye",
+      "il": "Antalya",
+      "ad": "Elmalı Adliyesi",
+      "adres": "Gündoğan Mah. Antalya Cad. Elmalı /ANTALYA",
+      "telefonlar": [
+        "0 (242) 618 10 35",
+        "0 (242) 618 15 25",
+        "0 (242) 618 10 03",
+        "0 (242) 618 15 05"
+      ],
+      "faks": "0 (242) 618 52 92",
+      "web": "https://elmali.adalet.gov.tr"
+    },
+    {
+      "id": "manavgat",
+      "tur": "adliye",
+      "il": "Antalya",
+      "ad": "Manavgat Adliyesi",
+      "adres": "Bahçelievler Mah. Antalya Cad. No: 85 Manavgat/ANTALYA",
+      "telefonlar": [
+        "0 (242) 746 10 08",
+        "0 (242) 742 08 38"
+      ],
+      "faks": null,
+      "web": "https://manavgat.adalet.gov.tr"
+    },
+    {
+      "id": "ardahan",
+      "tur": "adliye",
+      "il": "Ardahan",
+      "ad": "Ardahan Adliyesi",
+      "adres": "Karagöl Mahallesi Mareşal Fevzi Çakmak Cd. No:21, 75000 Ardahan",
+      "telefonlar": [
+        "0 (478) 211 64 01",
+        "0 (478) 211 30 45"
+      ],
+      "faks": null,
+      "web": "https://ardahan.adalet.gov.tr"
+    },
+    {
+      "id": "artvin",
+      "tur": "adliye",
+      "il": "Artvin",
+      "ad": "Artvin Adliyesi",
+      "adres": "Orta Mah. Miralay Şükrü Bey Cad. Artvin Adalet Sarayı No 7/2 Merkez / ARTVİN",
+      "telefonlar": [
+        "0 (466) 212 23 06"
+      ],
+      "faks": "0 (466) 212 69 09",
+      "web": "https://artvin.adalet.gov.tr"
+    },
+    {
+      "id": "aydin",
+      "tur": "adliye",
+      "il": "Aydın",
+      "ad": "Aydın Adliyesi",
+      "adres": "Veysi Paşa Mahallesi No:72 Efeler/Aydın Türkiye",
+      "telefonlar": [
+        "0 (256) 225 33 24",
+        "0 (256) 225 99 65"
+      ],
+      "faks": null,
+      "web": "https://aydin.adalet.gov.tr"
+    },
+    {
+      "id": "nazilli",
+      "tur": "adliye",
+      "il": "Aydın",
+      "ad": "Nazilli Adliyesi",
+      "adres": "Cumhuriyet Mahallesi Devlet Karayolu üzeri Adalet Sarayı 09800 Nazilli / AYDIN",
+      "telefonlar": [
+        "0 (256) 313 55 52",
+        "0 (256) 312 28 88",
+        "0 (256) 313 28 75"
+      ],
+      "faks": null,
+      "web": "https://nazilli.adalet.gov.tr"
+    },
+    {
+      "id": "balikesir",
+      "tur": "adliye",
+      "il": "Balıkesir",
+      "ad": "Balıkesir Adliyesi",
+      "adres": "Gaziosmanpaşa Mah. Yeni İzmir Caddesi 4. Km. No:166 Altıeylül /BALIKESİR",
+      "telefonlar": [
+        "0 (266) 223 00 83",
+        "0 (266) 223 05 62",
+        "0 (266) 223 05 61"
+      ],
+      "faks": null,
+      "web": "https://balikesir.adalet.gov.tr"
+    },
+    {
+      "id": "bandirma",
+      "tur": "adliye",
+      "il": "Balıkesir",
+      "ad": "Bandırma Adliyesi",
+      "adres": "600 Evler Mahallesi, NATO Caddesi, Adliye Sarayı Sokak, No:3, Bandırma / Balıkesir",
+      "telefonlar": [
+        "0 (266) 721 13 00"
+      ],
+      "faks": null,
+      "web": "https://bandirma.adalet.gov.tr"
+    },
+    {
+      "id": "burhaniye",
+      "tur": "adliye",
+      "il": "Balıkesir",
+      "ad": "Burhaniye Adliyesi",
+      "adres": "Mahkeme Mahallesi , Saip Hoca Bulvarı No:1 Burhaniye/BALIKESİR",
+      "telefonlar": [
+        "0 (266) 412 81 96",
+        "0 (266) 412 80 88",
+        "0 (266) 412 88 66"
+      ],
+      "faks": "0 (266) 412 65 26",
+      "web": "https://burhaniye.adalet.gov.tr"
+    },
+    {
+      "id": "bartin",
+      "tur": "adliye",
+      "il": "Bartın",
+      "ad": "Bartın Adliyesi",
+      "adres": "Gölbucağı mh. 565 sk. 74100 - BARTIN",
+      "telefonlar": [
+        "0 (378) 227 16 35",
+        "0 (378) 227 16 80"
+      ],
+      "faks": null,
+      "web": "https://bartin.adalet.gov.tr"
+    },
+    {
+      "id": "batman",
+      "tur": "adliye",
+      "il": "Batman",
+      "ad": "Batman Adliyesi",
+      "adres": "Belde Mah. İbrahim Hakkı Caddesi No:4 Merkez/BATMAN",
+      "telefonlar": [
+        "0 (488) 502 22 21"
+      ],
+      "faks": "0 (488) 502 22 19",
+      "web": "https://batman.adalet.gov.tr"
+    },
+    {
+      "id": "bayburt",
+      "tur": "adliye",
+      "il": "Bayburt",
+      "ad": "Bayburt Adliyesi",
+      "adres": "Gençosman Mahallesi Turgut Özal Bulvarı Bayburt",
+      "telefonlar": [
+        "0 (458) 212 10 16"
+      ],
+      "faks": "0 (458) 211 70 34",
+      "web": "https://bayburt.adalet.gov.tr"
+    },
+    {
+      "id": "bilecik",
+      "tur": "adliye",
+      "il": "Bilecik",
+      "ad": "Bilecik Adliyesi",
+      "adres": "Cumhuriyet, Cumhuriyet Cd. No:21, 11000 Merkez/Bilecik",
+      "telefonlar": [
+        "0 (228) 212 96 55"
+      ],
+      "faks": null,
+      "web": "https://bilecik.adalet.gov.tr"
+    },
+    {
+      "id": "bingol",
+      "tur": "adliye",
+      "il": "Bingöl",
+      "ad": "Bingöl Adliyesi",
+      "adres": "Karşıyaka Mah. Zeki Ergezen Bulvarı No: 53 Merkez / BİNGÖL",
+      "telefonlar": [
+        "0 (426) 213 42 41",
+        "0 (426) 213 10 63"
+      ],
+      "faks": null,
+      "web": "https://bingol.adalet.gov.tr"
+    },
+    {
+      "id": "bitlis",
+      "tur": "adliye",
+      "il": "Bitlis",
+      "ad": "Bitlis Adliyesi",
+      "adres": "Hüsrevpaşa Mahallesi, Ahmet Eren Bulvarı, Bitlis Adalet Sarayı",
+      "telefonlar": [
+        "0 (434) 226 63 00",
+        "0 (434) 226 63 03"
+      ],
+      "faks": null,
+      "web": "https://bitlis.adalet.gov.tr"
+    },
+    {
+      "id": "tatvan",
+      "tur": "adliye",
+      "il": "Bitlis",
+      "ad": "Tatvan Adliyesi",
+      "adres": "İstasyon Mah., Bitlis Yolu Cad., 13200 Tatvan/Bitlis",
+      "telefonlar": [
+        "0 (434) 827 61 04"
+      ],
+      "faks": null,
+      "web": "https://tatvan.adalet.gov.tr"
+    },
+    {
+      "id": "bolu",
+      "tur": "adliye",
+      "il": "Bolu",
+      "ad": "Bolu Adliyesi",
+      "adres": "Aşağısoku Mahallesi Yıldırım Beyazıd Caddesi No:2 Merkez/Bolu",
+      "telefonlar": [
+        "0 (374) 215 00 96"
+      ],
+      "faks": null,
+      "web": "https://bolu.adalet.gov.tr"
+    },
+    {
+      "id": "burdur",
+      "tur": "adliye",
+      "il": "Burdur",
+      "ad": "Burdur Adliyesi",
+      "adres": "Emek mahallesi Bülent Ecevit Bulvarı No:21 Merkez / Burdur",
+      "telefonlar": [
+        "0 (248) 233 19 31",
+        "0 (248) 233 19 33",
+        "0 (248) 235 20 50",
+        "0 (248) 235 20 51",
+        "0 (248) 235 20 52"
+      ],
+      "faks": "0 (248) 233 18 28",
+      "web": "https://burdur.adalet.gov.tr"
+    },
+    {
+      "id": "bursa",
+      "tur": "adliye",
+      "il": "Bursa",
+      "ad": "Bursa Adliyesi",
+      "adres": "Hacıilyas Mahallesi Kıbrıs Şehitleri Caddesi No:21 PK 16220 Osmangazi/BURSA",
+      "telefonlar": [
+        "0 (224) 272 50 04"
+      ],
+      "faks": "0 (224) 271 60 65",
+      "web": "https://bursa.adalet.gov.tr"
+    },
+    {
+      "id": "gemlik",
+      "tur": "adliye",
+      "il": "Bursa",
+      "ad": "Gemlik Adliyesi",
+      "adres": "Hisar mah 242. sok no 14 Gemlik/ BURSA",
+      "telefonlar": [
+        "0 (224) 513 54 54"
+      ],
+      "faks": null,
+      "web": "https://gemlik.adalet.gov.tr"
+    },
+    {
+      "id": "inegol",
+      "tur": "adliye",
+      "il": "Bursa",
+      "ad": "İnegöl Adliyesi",
+      "adres": "Kemalpaşa Mahallesi Adnan Menderes Bulvarı No:9 PK 16400 İNEGÖL/BURSA",
+      "telefonlar": [
+        "0 (224) 715 19 78",
+        "0 (224) 711 13 63"
+      ],
+      "faks": null,
+      "web": "https://inegol.adalet.gov.tr"
+    },
+    {
+      "id": "mustafakemalpasa",
+      "tur": "adliye",
+      "il": "Bursa",
+      "ad": "Mustafakemalpaşa Adliyesi",
+      "adres": "Orta Mah. Eski Bursa Cd. NO:2, 16500 Mustafakemalpaşa/Bursa",
+      "telefonlar": [
+        "0 (224) 613 95 95"
+      ],
+      "faks": null,
+      "web": "https://mustafakemalpasa.adalet.gov.tr"
+    },
+    {
+      "id": "canakkale",
+      "tur": "adliye",
+      "il": "Çanakkale",
+      "ad": "Çanakkale Adliyesi",
+      "adres": "Barbaros Mah. Yeniyol Sokak No:2 Merkez / Çanakkale",
+      "telefonlar": [
+        "0 (286) 217 22 27",
+        "0 (286) 217 15 64"
+      ],
+      "faks": null,
+      "web": "https://canakkale.adalet.gov.tr"
+    },
+    {
+      "id": "cankiri",
+      "tur": "adliye",
+      "il": "Çankırı",
+      "ad": "Çankırı Adliyesi",
+      "adres": "Abdulhalik Renda, D, Ankara Cd. No:65, 18200 Çankırı Merkez/Çankırı",
+      "telefonlar": [
+        "0 (376) 213 24 93",
+        "0 (376) 213 24 35"
+      ],
+      "faks": null,
+      "web": "https://cankiri.adalet.gov.tr"
+    },
+    {
+      "id": "corum",
+      "tur": "adliye",
+      "il": "Çorum",
+      "ad": "Çorum Adliyesi",
+      "adres": "Ulukavak Mahallesi Fatih Caddesi No:13 Merkez/ÇORUM",
+      "telefonlar": [
+        "0 (364) 227 78 80"
+      ],
+      "faks": null,
+      "web": "https://corum.adalet.gov.tr"
+    },
+    {
+      "id": "denizli",
+      "tur": "adliye",
+      "il": "Denizli",
+      "ad": "Denizli Adliyesi",
+      "adres": "Denizli Adalet Sarayı 29 Ekim Bulvarı No:1 Merkezefendi/DENİZLİ",
+      "telefonlar": [
+        "0 (258) 377 55 03"
+      ],
+      "faks": null,
+      "web": "https://denizli.adalet.gov.tr"
+    },
+    {
+      "id": "diyarbakir",
+      "tur": "adliye",
+      "il": "Diyarbakır",
+      "ad": "Diyarbakır Adliyesi",
+      "adres": "Elazığ Cad. Diyarbakır Adalet Sarayı Yenişehir/ DİYARBAKIR",
+      "telefonlar": [
+        "0 (412) 229 16 00",
+        "0 (412) 228 30 40"
+      ],
+      "faks": null,
+      "web": "https://diyarbakir.adalet.gov.tr"
+    },
+    {
+      "id": "duzce",
+      "tur": "adliye",
+      "il": "Düzce",
+      "ad": "Düzce Adliyesi",
+      "adres": "Fevzi Çakmak Mah. Eski Bolu Cad. Adalet Sarayı Merkez/DÜZCE",
+      "telefonlar": [
+        "0 (380) 524 35 35"
+      ],
+      "faks": "0 (380) 524 34 34",
+      "web": "https://duzce.adalet.gov.tr"
+    },
+    {
+      "id": "edirne",
+      "tur": "adliye",
+      "il": "Edirne",
+      "ad": "Edirne Adliyesi",
+      "adres": "İstasyon Mah. Hakim Çağlar Işık Caddesi. Edirne Adalet Sarayı Merkez Edirne",
+      "telefonlar": [
+        "0 (284) 225 10 31"
+      ],
+      "faks": null,
+      "web": "https://edirne.adalet.gov.tr"
+    },
+    {
+      "id": "elazig",
+      "tur": "adliye",
+      "il": "Elazığ",
+      "ad": "Elazığ Adliyesi",
+      "adres": "Çaydaçıra Mah. Emsal Sok. No:9 Merkez /ELAZIĞ",
+      "telefonlar": [
+        "0 (424) 248 39 01"
+      ],
+      "faks": null,
+      "web": "https://elazig.adalet.gov.tr"
+    },
+    {
+      "id": "erzincan",
+      "tur": "adliye",
+      "il": "Erzincan",
+      "ad": "Erzincan Adliyesi",
+      "adres": "Karaağaç Mah. Fevzipaşa Cad. No:62 ERZİNCAN",
+      "telefonlar": [
+        "0 (446) 214 19 40",
+        "0 (446) 214 24 20"
+      ],
+      "faks": null,
+      "web": "https://erzincan.adalet.gov.tr"
+    },
+    {
+      "id": "erzurum",
+      "tur": "adliye",
+      "il": "Erzurum",
+      "ad": "Erzurum Adliyesi",
+      "adres": "Muratpaşa Mahallesi, Yönetim Cad., 25100 Yakutiye/",
+      "telefonlar": [
+        "0 (442) 235 75 35"
+      ],
+      "faks": null,
+      "web": "https://erzurum.adalet.gov.tr"
+    },
+    {
+      "id": "hinis",
+      "tur": "adliye",
+      "il": "Erzurum",
+      "ad": "Hınıs Adliyesi",
+      "adres": "Yeşilbahçe Mahallesi 17.Cadde 1017.Sokak No: 6 Adliye Binası Hınıs/Erzurum",
+      "telefonlar": [
+        "0 (442) 511 33 41"
+      ],
+      "faks": null,
+      "web": "https://hinis.adalet.gov.tr"
+    },
+    {
+      "id": "eskisehir",
+      "tur": "adliye",
+      "il": "Eskişehir",
+      "ad": "Eskişehir Adliyesi",
+      "adres": "Kurtuluş Mahallesi, Cumhuriyet Bulvarı /Yargı Sokak, 26030 Odunpazarı/Eskişehir",
+      "telefonlar": [
+        "0 (222) 240 72 22",
+        "0 (222) 240 72 09"
+      ],
+      "faks": null,
+      "web": "https://eskisehir.adalet.gov.tr"
+    },
+    {
+      "id": "gaziantep",
+      "tur": "adliye",
+      "il": "Gaziantep",
+      "ad": "Gaziantep Adliyesi",
+      "adres": "Zeytinli Mah. İpek Yolu Üzeri, Tugay Yanı, Gaziantep Adalet Sarayı Şehitkamil/GAZİANTEP",
+      "telefonlar": [
+        "0 (342) 321 36 36"
+      ],
+      "faks": null,
+      "web": "https://gaziantep.adalet.gov.tr"
+    },
+    {
+      "id": "islahiye",
+      "tur": "adliye",
+      "il": "Gaziantep",
+      "ad": "İslahiye Adliyesi",
+      "adres": "Beyler Mahallesi, Barazi Caddesi No: 102 İslahiye/GAZİANTEP",
+      "telefonlar": [
+        "0 (342) 862 50 97",
+        "0 (342) 862 24 74"
+      ],
+      "faks": null,
+      "web": "https://islahiye.adalet.gov.tr"
+    },
+    {
+      "id": "nizip",
+      "tur": "adliye",
+      "il": "Gaziantep",
+      "ad": "Nizip Adliyesi",
+      "adres": "Yunus Emre, Alaattin Sk., 27700 Nizip/Gaziantep",
+      "telefonlar": [
+        "0 (342) 517 10 66",
+        "0 (342) 517 75 15"
+      ],
+      "faks": null,
+      "web": "https://nizip.adalet.gov.tr"
+    },
+    {
+      "id": "giresun",
+      "tur": "adliye",
+      "il": "Giresun",
+      "ad": "Giresun Adliyesi",
+      "adres": "Giresun Adliyesi Çıtlakkale Mahallesi Atatürk Bulvarı No:117 D Blok Merkez/GİRESUN",
+      "telefonlar": [
+        "0 (454) 215 76 00"
+      ],
+      "faks": "0 (454) 215 76 08",
+      "web": "https://giresun.adalet.gov.tr"
+    },
+    {
+      "id": "sebinkarahisar",
+      "tur": "adliye",
+      "il": "Giresun",
+      "ad": "Şebinkarahisar Adliyesi",
+      "adres": "Bülbül Mh. Halil Rıfat Paşa Cd. No:10 Şebinkarahisar/GİRESUN",
+      "telefonlar": [
+        "0 (454) 711 30 64",
+        "0 (454) 711 43 48"
+      ],
+      "faks": null,
+      "web": "https://sebinkarahisar.adalet.gov.tr"
+    },
+    {
+      "id": "gumushane",
+      "tur": "adliye",
+      "il": "Gümüşhane",
+      "ad": "Gümüşhane Adliyesi",
+      "adres": "Gümüşhane Adliyesi Bağlarbaşı Mahallesi, Kazım Karabekir Caddesi No:59 29000 Merkez/Gümüşhane",
+      "telefonlar": [
+        "0 (456) 213 10 02",
+        "0 (456) 213 39 67"
+      ],
+      "faks": null,
+      "web": "https://gumushane.adalet.gov.tr"
+    },
+    {
+      "id": "hakkari",
+      "tur": "adliye",
+      "il": "Hakkari",
+      "ad": "Hakkari Adliyesi",
+      "adres": "Bulak Mah. Konak Cad. No : 2 Merkez/HAKKARİ",
+      "telefonlar": [
+        "0 (438) 211 66 55",
+        "0 (438) 211 29 11"
+      ],
+      "faks": null,
+      "web": "https://hakkari.adalet.gov.tr"
+    },
+    {
+      "id": "yuksekova",
+      "tur": "adliye",
+      "il": "Hakkari",
+      "ad": "Yüksekova Adliyesi",
+      "adres": "Milli Egemenlik caddesi Yüksekova/HAKKARİ",
+      "telefonlar": [
+        "0 (438) 351 34 13"
+      ],
+      "faks": "0 (438) 351 49 00",
+      "web": "https://yuksekova.adalet.gov.tr"
+    },
+    {
+      "id": "dortyol",
+      "tur": "adliye",
+      "il": "Hatay",
+      "ad": "Dörtyol Adliyesi",
+      "adres": "Numune evler mah. Abdi ipekçi cad. No:10,31600 Dörtyol/Hatay",
+      "telefonlar": [
+        "0 (326) 712 28 82"
+      ],
+      "faks": "0 (326) 712 14 24",
+      "web": "https://dortyol.adalet.gov.tr"
+    },
+    {
+      "id": "iskenderun",
+      "tur": "adliye",
+      "il": "Hatay",
+      "ad": "İskenderun Adliyesi",
+      "adres": "Gürsel Mah. Eyüp Sultan Cad. No:2 İskenderun / Hatay",
+      "telefonlar": [
+        "0 (326) 618 55 00"
+      ],
+      "faks": "0 (326) 614 08 68",
+      "web": "https://iskenderun.adalet.gov.tr"
+    },
+    {
+      "id": "kirikhan",
+      "tur": "adliye",
+      "il": "Hatay",
+      "ad": "Kırıkhan Adliyesi",
+      "adres": "Alsancak Mah.Antakya Çevre Yolu Cad.No:109 Kırıkhan/HATAY",
+      "telefonlar": [
+        "0 (326) 344 30 15"
+      ],
+      "faks": "0 (326) 345 01 82",
+      "web": "https://kirikhan.adalet.gov.tr"
+    },
+    {
+      "id": "igdir",
+      "tur": "adliye",
+      "il": "Iğdır",
+      "ad": "Iğdır Adliyesi",
+      "adres": "Bağlar Mahallesi Gürsel Sokak No:3 Merkez/IĞDIR",
+      "telefonlar": [
+        "0 (476) 227 69 39",
+        "0 (476) 227 63 16"
+      ],
+      "faks": null,
+      "web": "https://igdir.adalet.gov.tr"
+    },
+    {
+      "id": "isparta",
+      "tur": "adliye",
+      "il": "Isparta",
+      "ad": "Isparta Adliyesi",
+      "adres": "Fatih Mahallesi 201. Cd. No:30, 32200 Merkez/Isparta",
+      "telefonlar": [
+        "0 (246) 228 59 02"
+      ],
+      "faks": "0 (246) 227 35 83",
+      "web": "https://isparta.adalet.gov.tr"
+    },
+    {
+      "id": "yalvac",
+      "tur": "adliye",
+      "il": "Isparta",
+      "ad": "Yalvaç Adliyesi",
+      "adres": "GÖRGÜ ORTA MAH. YEŞİL ÇINAR BULVARI NO:14 YALVAÇ / ISPARTA",
+      "telefonlar": [
+        "0 (246) 441 39 55"
+      ],
+      "faks": "0 (246) 441 48 32",
+      "web": "https://yalvac.adalet.gov.tr"
+    },
+    {
+      "id": "bakirkoy",
+      "tur": "adliye",
+      "il": "İstanbul",
+      "ad": "Bakırköy Adliyesi",
+      "adres": "Osmaniye Mah. İsmail Erez Bulvarı No: 14 P.K. 34146 Bakırköy / İstanbul",
+      "telefonlar": [
+        "0 (212) 414 54 00"
+      ],
+      "faks": "0 (212) 543 01 59",
+      "web": "https://bakirkoy.adalet.gov.tr"
+    },
+    {
+      "id": "gaziosmanpasa",
+      "tur": "adliye",
+      "il": "İstanbul",
+      "ad": "Gaziosmanpaşa Adliyesi",
+      "adres": "5.Levent Mahallesi, Mareşal Fevzi Çakmak Caddesi B Blok No:29/1 Eyüpsultan/İstanbul",
+      "telefonlar": [
+        "0 (212) 370 17 00"
+      ],
+      "faks": null,
+      "web": "https://gaziosmanpasa.adalet.gov.tr"
+    },
+    {
+      "id": "istanbul",
+      "tur": "adliye",
+      "il": "İstanbul",
+      "ad": "İstanbul Adliyesi",
+      "adres": "Çağlayan Meydanı Şişli Merkez Mah. Abide-i Hürriyet Cad. No: 223 Şişli/İstanbul",
+      "telefonlar": [
+        "0 (212) 375 75 75"
+      ],
+      "faks": null,
+      "web": "https://istanbul.adalet.gov.tr"
+    },
+    {
+      "id": "kucukcekmece",
+      "tur": "adliye",
+      "il": "İstanbul",
+      "ad": "Küçükçekmece Adliyesi",
+      "adres": "Kartaltepe, Malazgirt Cd. No:2-4, 34295 Küçükçekmece/İstanbul",
+      "telefonlar": [
+        "0 (212) 411 51 00",
+        "0 (212) 411 53 37"
+      ],
+      "faks": null,
+      "web": "https://kucukcekmece.adalet.gov.tr"
+    },
+    {
+      "id": "silivri",
+      "tur": "adliye",
+      "il": "İstanbul",
+      "ad": "Silivri Adliyesi",
+      "adres": "Alibey Mah. Turgut Özal Bulvarı. No: 32-34 Silivri/İstanbul",
+      "telefonlar": [
+        "0 (212) 728 22 20"
+      ],
+      "faks": null,
+      "web": "https://silivri.adalet.gov.tr"
+    },
+    {
+      "id": "bergama",
+      "tur": "adliye",
+      "il": "İzmir",
+      "ad": "Bergama Adliyesi",
+      "adres": "Zafer Mah. Cumhuriyet Cad. No: 7 Bergama - İZMİR",
+      "telefonlar": [
+        "0 (232) 631 29 31"
+      ],
+      "faks": "0 (232) 631 29 34",
+      "web": "https://bergama.adalet.gov.tr"
+    },
+    {
+      "id": "cesme",
+      "tur": "adliye",
+      "il": "İzmir",
+      "ad": "Çeşme Adliyesi",
+      "adres": "Sakarya Mah. 3104. Sk. No:1 35930 Çeşme/İZMİR",
+      "telefonlar": [
+        "0 (232) 712 65 62"
+      ],
+      "faks": "0 (232) 712 06 06",
+      "web": "https://cesme.adalet.gov.tr"
+    },
+    {
+      "id": "izmir",
+      "tur": "adliye",
+      "il": "İzmir",
+      "ad": "İzmir Adliyesi",
+      "adres": "Çınarlı Mahallesi Şehit Polis Fethi Sekin Caddesi No:11/A Konak / İZMİR",
+      "telefonlar": [
+        "0 (232) 411 20 00"
+      ],
+      "faks": "0 (232) 435 04 37",
+      "web": "https://izmir.adalet.gov.tr"
+    },
+    {
+      "id": "karsiyaka",
+      "tur": "adliye",
+      "il": "İzmir",
+      "ad": "Karşıyaka Adliyesi",
+      "adres": "Bahariye Mahallesi No:15 Karşıyaka / İZMİR",
+      "telefonlar": [
+        "0 (232) 368 03 03",
+        "0 (232) 368 75 70"
+      ],
+      "faks": null,
+      "web": "https://karsiyaka.adalet.gov.tr"
+    },
+    {
+      "id": "menemen",
+      "tur": "adliye",
+      "il": "İzmir",
+      "ad": "Menemen Adliyesi",
+      "adres": "Kasımpaşa Mahallesi Atatürk Caddesi No:1-1 Menemen / İZMİR",
+      "telefonlar": [
+        "0 (232) 832 26 34"
+      ],
+      "faks": "0 (232) 832 80 47",
+      "web": "https://menemen.adalet.gov.tr"
+    },
+    {
+      "id": "odemis",
+      "tur": "adliye",
+      "il": "İzmir",
+      "ad": "Ödemiş Adliyesi",
+      "adres": "Anafartalar Mah. Adnan Menderes Bulvarı No:154 Ödemiş/İzmir",
+      "telefonlar": [
+        "0 (232) 544 90 88",
+        "0 (232) 545 35 72"
+      ],
+      "faks": null,
+      "web": "https://odemis.adalet.gov.tr"
+    },
+    {
+      "id": "torbali",
+      "tur": "adliye",
+      "il": "İzmir",
+      "ad": "Torbalı Adliyesi",
+      "adres": "Torbalı Mh. Aydın Cd. No:100 Torbalı Adliyesi 35860 Torbalı/İzmir",
+      "telefonlar": [
+        "0 (232) 853 14 14"
+      ],
+      "faks": null,
+      "web": "https://torbali.adalet.gov.tr"
+    },
+    {
+      "id": "elbistan",
+      "tur": "adliye",
+      "il": "Kahramanmaraş",
+      "ad": "Elbistan Adliyesi",
+      "adres": "Yunus Emre Mahallesi Dr.Devlet Bahçeli Bul. No:81 P.K:46300 Elbistan/KAHRAMANMARAŞ",
+      "telefonlar": [
+        "0 (344) 415 20 35"
+      ],
+      "faks": "0 (344) 415 20 36",
+      "web": "https://elbistan.adalet.gov.tr"
+    },
+    {
+      "id": "kahramanmaras",
+      "tur": "adliye",
+      "il": "Kahramanmaraş",
+      "ad": "Kahramanmaraş Adliyesi",
+      "adres": "Cumhuriyet Mahallesi Prof.Dr.Necmettin ERBAKAN Bulvarı No:66 Onikişubat / Kahramanmaraş",
+      "telefonlar": [
+        "0 (344) 211 16 90"
+      ],
+      "faks": null,
+      "web": "https://kahramanmaras.adalet.gov.tr"
+    },
+    {
+      "id": "karabuk",
+      "tur": "adliye",
+      "il": "Karabük",
+      "ad": "Karabük Adliyesi",
+      "adres": "Ergenekon Mah. Mimar Sinan Cad. Merkez / KARABÜK",
+      "telefonlar": [
+        "0 (370) 413 00 49"
+      ],
+      "faks": "0 (370) 412 46 22",
+      "web": "https://karabuk.adalet.gov.tr"
+    },
+    {
+      "id": "ermenek",
+      "tur": "adliye",
+      "il": "Karaman",
+      "ad": "Ermenek Adliyesi",
+      "adres": "ERMENEK ADALET SARAYI, Seyran Mahallesi, Halit Bardakçı Sokak, No:10/1, P.K.70400 Ermenek/KARAMAN",
+      "telefonlar": [
+        "0 (338) 716 19 98",
+        "0 (338) 716 30 60"
+      ],
+      "faks": null,
+      "web": "https://ermenek.adalet.gov.tr"
+    },
+    {
+      "id": "karaman",
+      "tur": "adliye",
+      "il": "Karaman",
+      "ad": "Karaman Adliyesi",
+      "adres": "Karaman Adalet Sarayı Hamidiye Mah. 1856. Sokak No: 31",
+      "telefonlar": [
+        "0 (338) 226 60 00",
+        "0 (338) 226 60 11"
+      ],
+      "faks": null,
+      "web": "https://karaman.adalet.gov.tr"
+    },
+    {
+      "id": "kars",
+      "tur": "adliye",
+      "il": "Kars",
+      "ad": "Kars Adliyesi",
+      "adres": "Yeni Şehir Mahallesi 337. Sokak No:52",
+      "telefonlar": [
+        "0 (474) 223 20 26"
+      ],
+      "faks": "0 (474) 212 23 54",
+      "web": "https://kars.adalet.gov.tr"
+    },
+    {
+      "id": "inebolu",
+      "tur": "adliye",
+      "il": "Kastamonu",
+      "ad": "İnebolu Adliyesi",
+      "adres": "Avara Mahallesi Şehit Er Rahmi YILMAZER Caddesi No:28 İnebolu / KASTAMONU",
+      "telefonlar": [
+        "0 (366) 811 20 04",
+        "0 (366) 811 51 77"
+      ],
+      "faks": null,
+      "web": "https://inebolu.adalet.gov.tr"
+    },
+    {
+      "id": "kastamonu",
+      "tur": "adliye",
+      "il": "Kastamonu",
+      "ad": "Kastamonu Adliyesi",
+      "adres": "Kuzeykent Mahallesi Miralay Halitbey Caddesi Merkez / Kastamonu",
+      "telefonlar": [
+        "0 (366) 215 42 97"
+      ],
+      "faks": "0 (366) 215 25 44",
+      "web": "https://kastamonu.adalet.gov.tr"
+    },
+    {
+      "id": "kayseri",
+      "tur": "adliye",
+      "il": "Kayseri",
+      "ad": "Kayseri Adliyesi",
+      "adres": "KAYSERİ ADALET SARAYI Erkilet Yolu Sümer Üst Geçit Yanı Plevne Mahallesi Gayret Sokak 38090 Kocasinan / Kayseri",
+      "telefonlar": [
+        "0 (352) 222 12 68"
+      ],
+      "faks": null,
+      "web": "https://kayseri.adalet.gov.tr"
+    },
+    {
+      "id": "kirikkale",
+      "tur": "adliye",
+      "il": "Kırıkkale",
+      "ad": "Kırıkkale Adliyesi",
+      "adres": "Fabrikalar Mahallesi Ağabey Pehlivanlı Bulvarı No:1 Kırıkkale",
+      "telefonlar": [
+        "0 (318) 225 24 34"
+      ],
+      "faks": null,
+      "web": "https://kirikkale.adalet.gov.tr"
+    },
+    {
+      "id": "kirklareli",
+      "tur": "adliye",
+      "il": "Kırklareli",
+      "ad": "Kırklareli Adliyesi",
+      "adres": "Bademlik Mah. Eriklice Yolu Merkez/KIRKLARELİ",
+      "telefonlar": [
+        "0 (288) 214 19 54",
+        "0 (482) 214 64 04"
+      ],
+      "faks": "0 (288) 214 30 59",
+      "web": "https://kirklareli.adalet.gov.tr"
+    },
+    {
+      "id": "kirsehir",
+      "tur": "adliye",
+      "il": "Kırşehir",
+      "ad": "Kırşehir Adliyesi",
+      "adres": "Aşıkpaşa, Ahmet Yesevi Blv. No:1, 40200 Kırşehir Merkez/Kırşehir",
+      "telefonlar": [
+        "0 (386) 213 16 77"
+      ],
+      "faks": "0 (386) 213 44 79",
+      "web": "https://kirsehir.adalet.gov.tr"
+    },
+    {
+      "id": "kilis",
+      "tur": "adliye",
+      "il": "Kilis",
+      "ad": "Kilis Adliyesi",
+      "adres": "Necmettin Erbakan Mahallesi. İnönü Bulvarı No.10 Merkez/Kilis",
+      "telefonlar": [
+        "0 (348) 813 69 45",
+        "0 (348) 814 56 66"
+      ],
+      "faks": null,
+      "web": "https://kilis.adalet.gov.tr"
+    },
+    {
+      "id": "gebze",
+      "tur": "adliye",
+      "il": "Kocaeli",
+      "ad": "Gebze Adliyesi",
+      "adres": "Mevlana Mahallesi Soma Maden Şehitleri Caddesi No:8 P.K.: 41400 Gebze/KOCAELİ",
+      "telefonlar": [
+        "0 (262) 672 50 00"
+      ],
+      "faks": null,
+      "web": "https://gebze.adalet.gov.tr"
+    },
+    {
+      "id": "kocaeli",
+      "tur": "adliye",
+      "il": "Kocaeli",
+      "ad": "Kocaeli Adliyesi",
+      "adres": "Körfez Mahallesi Hafız Binbaşı Cd. No:5 P.K: 41040 İzmit / KOCAELİ",
+      "telefonlar": [
+        "0 (262) 332 18 63"
+      ],
+      "faks": "0 (262) 331 23 09",
+      "web": "https://kocaeli.adalet.gov.tr"
+    },
+    {
+      "id": "aksehir",
+      "tur": "adliye",
+      "il": "Konya",
+      "ad": "Akşehir Adliyesi",
+      "adres": "Selçuklu Mahallesi Atatürk Caddesi No:18 Akşehir / KONYA",
+      "telefonlar": [
+        "0 (332) 813 86 00",
+        "0 (332) 813 86 04",
+        "0 (332) 556 10 78",
+        "0 (332) 882 85 10",
+        "0 (332) 851 23 20",
+        "0 (332) 812 50 03"
+      ],
+      "faks": null,
+      "web": "https://aksehir.adalet.gov.tr"
+    },
+    {
+      "id": "beysehir",
+      "tur": "adliye",
+      "il": "Konya",
+      "ad": "Beyşehir Adliyesi",
+      "adres": "Dalyan Mahallesi Atatürk Caddesi No: 131 Beyşehir / Konya",
+      "telefonlar": [
+        "0 (332) 512 34 21",
+        "0 (332) 512 19 61"
+      ],
+      "faks": "0 (332) 512 63 24",
+      "web": "https://beysehir.adalet.gov.tr"
+    },
+    {
+      "id": "eregli",
+      "tur": "adliye",
+      "il": "Konya",
+      "ad": "Ereğli Adliyesi",
+      "adres": "Cahı Mahallesi Otogar yanı Ereğli/Konya",
+      "telefonlar": [
+        "0 (332) 777 00 33",
+        "0 (332) 710 16 99",
+        "0 (332) 712 64 95"
+      ],
+      "faks": "0 (332) 710 17 02",
+      "web": "https://eregli.adalet.gov.tr"
+    },
+    {
+      "id": "konya",
+      "tur": "adliye",
+      "il": "Konya",
+      "ad": "Konya Adliyesi",
+      "adres": "Akabe Mah. Cemil Çiçek Cad. No: 63 KARATAY / KONYA",
+      "telefonlar": [
+        "0 (332) 221 31 00"
+      ],
+      "faks": "0 (332) 221 32 45",
+      "web": "https://konya.adalet.gov.tr"
+    },
+    {
+      "id": "seydisehir",
+      "tur": "adliye",
+      "il": "Konya",
+      "ad": "Seydişehir Adliyesi",
+      "adres": "Adalet Sarayı, Haciseyitali Mahallesi, Milli Egemenlik Caddesi 42370 Seydişehir/KONYA",
+      "telefonlar": [
+        "0 (332) 582 28 22",
+        "0 (332) 512 34 21",
+        "0 (332) 426 28 42",
+        "0 (332) 582 87 98"
+      ],
+      "faks": "0 (332) 582 33 99",
+      "web": "https://seydisehir.adalet.gov.tr"
+    },
+    {
+      "id": "kutahya",
+      "tur": "adliye",
+      "il": "Kütahya",
+      "ad": "Kütahya Adliyesi",
+      "adres": "Akkent Mahallesi Pir Ahmet Sokak No:2 Merkez / KÜTAHYA",
+      "telefonlar": [
+        "0 (274) 223 60 90",
+        "0 (274) 224 89 67"
+      ],
+      "faks": "0 (274) 224 75 28",
+      "web": "https://kutahya.adalet.gov.tr"
+    },
+    {
+      "id": "tavsanli",
+      "tur": "adliye",
+      "il": "Kütahya",
+      "ad": "Tavşanlı Adliyesi",
+      "adres": "Çırçırçeşme mah. Kerem Sokak No:2 43300 Tavşanlı / KÜTAHYA",
+      "telefonlar": [
+        "0 (274) 615 13 70",
+        "0 (274) 614 31 41"
+      ],
+      "faks": null,
+      "web": "https://tavsanli.adalet.gov.tr"
+    },
+    {
+      "id": "malatya",
+      "tur": "adliye",
+      "il": "Malatya",
+      "ad": "Malatya Adliyesi",
+      "adres": "Malatya Cumhuriyet Başsavcılığı Malatya-Kayseri Yolu 8. Km Gezer Mevkii İkizce Mah. Yeşilyurt/MALATYA",
+      "telefonlar": [
+        "0 (422) 324 90 40"
+      ],
+      "faks": null,
+      "web": "https://malatya.adalet.gov.tr"
+    },
+    {
+      "id": "akhisar",
+      "tur": "adliye",
+      "il": "Manisa",
+      "ad": "Akhisar Adliyesi",
+      "adres": "İnönü Mahallesi 144 Sokak No:128 45200 Akhisar/MANİSA",
+      "telefonlar": [
+        "0 (236) 414 20 04",
+        "0 (236) 413 94 82"
+      ],
+      "faks": null,
+      "web": "https://akhisar.adalet.gov.tr"
+    },
+    {
+      "id": "alasehir",
+      "tur": "adliye",
+      "il": "Manisa",
+      "ad": "Alaşehir Adliyesi",
+      "adres": "Beşeylül Cd. No: 7 45600 Alaşehir / MANİSA",
+      "telefonlar": [
+        "0 (236) 653 15 55",
+        "0 (236) 653 30 05",
+        "0 (236) 653 16 19",
+        "0 (236) 653 34 42"
+      ],
+      "faks": "0 (236) 653 19 75",
+      "web": "https://alasehir.adalet.gov.tr"
+    },
+    {
+      "id": "manisa",
+      "tur": "adliye",
+      "il": "Manisa",
+      "ad": "Manisa Adliyesi",
+      "adres": "Uncubozköy M. Mimar Sinan Bulvarı No:179 Yunusemre/MANİSA",
+      "telefonlar": [
+        "0 (236) 236 33 10",
+        "0 (236) 236 33 19"
+      ],
+      "faks": null,
+      "web": "https://manisa.adalet.gov.tr"
+    },
+    {
+      "id": "salihli",
+      "tur": "adliye",
+      "il": "Manisa",
+      "ad": "Salihli Adliyesi",
+      "adres": "Şehitler Mahallesi Çiçek Caddesi No: 60 45310 Salihli/MANİSA",
+      "telefonlar": [
+        "0 (236) 714 98 95",
+        "0 (236) 714 67 07"
+      ],
+      "faks": null,
+      "web": "https://salihli.adalet.gov.tr"
+    },
+    {
+      "id": "turgutlu",
+      "tur": "adliye",
+      "il": "Manisa",
+      "ad": "Turgutlu Adliyesi",
+      "adres": "Şehitler Mah. Şehit Oğuz Erbay Sok. No:26 Turgutlu / Manisa",
+      "telefonlar": [
+        "0 (236) 313 10 11"
+      ],
+      "faks": "0 (236) 313 39 80",
+      "web": "https://turgutlu.adalet.gov.tr"
+    },
+    {
+      "id": "mardin",
+      "tur": "adliye",
+      "il": "Mardin",
+      "ad": "Mardin Adliyesi",
+      "adres": "13 Mart, Vali Ozan Cad. Hükümet Konağı, 47200 Mardin Artuklu/Mardin",
+      "telefonlar": [
+        "0 (482) 212 36 01",
+        "0 (482) 212 10 27"
+      ],
+      "faks": null,
+      "web": "https://mardin.adalet.gov.tr"
+    },
+    {
+      "id": "midyat",
+      "tur": "adliye",
+      "il": "Mardin",
+      "ad": "Midyat Adliyesi",
+      "adres": "T.C. Midyat Adliyesi - Bahçelievler Mah. Cumhuriyet Bulvarı No:96 Midyat/MARDİN",
+      "telefonlar": [
+        "0 (482) 462 69 50",
+        "0 (482) 462 69 53"
+      ],
+      "faks": "0 (482) 462 40 24",
+      "web": "https://midyat.adalet.gov.tr"
+    },
+    {
+      "id": "anamur",
+      "tur": "adliye",
+      "il": "Mersin",
+      "ad": "Anamur Adliyesi",
+      "adres": "Yeşilyurt mah. Halide Edip Adıvar Cad. Anamur/MERSİN",
+      "telefonlar": [
+        "0 (324) 814 88 00",
+        "0 (324) 814 29 19"
+      ],
+      "faks": null,
+      "web": "https://anamur.adalet.gov.tr"
+    },
+    {
+      "id": "mersin",
+      "tur": "adliye",
+      "il": "Mersin",
+      "ad": "Mersin Adliyesi",
+      "adres": "İhsaniye Mahallesi Zeytinlibahçe Caddesi No:107, 33050 Akdeniz/MERSİN",
+      "telefonlar": [
+        "0 (324) 232 18 45",
+        "0 (324) 232 80 84"
+      ],
+      "faks": null,
+      "web": "https://mersin.adalet.gov.tr"
+    },
+    {
+      "id": "silifke",
+      "tur": "adliye",
+      "il": "Mersin",
+      "ad": "Silifke Adliyesi",
+      "adres": "Yeni Mahalle 321_2 Sokak No:5 Taşucu Yolu Üzeri Silifke/MERSİN",
+      "telefonlar": [
+        "0 (324) 713 09 10"
+      ],
+      "faks": "0 (324) 713 09 15",
+      "web": "https://silifke.adalet.gov.tr"
+    },
+    {
+      "id": "tarsus",
+      "tur": "adliye",
+      "il": "Mersin",
+      "ad": "Tarsus Adliyesi",
+      "adres": "Adres:Tozkoparan Zahit Mah. Kasım Gülek Blv. Tarsus/MERSİN",
+      "telefonlar": [
+        "0 (324) 616 15 70"
+      ],
+      "faks": "0 (324) 616 17 18",
+      "web": "https://tarsus.adalet.gov.tr"
+    },
+    {
+      "id": "bodrum",
+      "tur": "adliye",
+      "il": "Muğla",
+      "ad": "Bodrum Adliyesi",
+      "adres": "Bitez Mahallesi, Adliye Caddesi, No:1 Bodrum Adliyesi, 48400 Bodrum/MUĞLA",
+      "telefonlar": [
+        "0 (252) 363 99 14",
+        "0 (252) 363 99 35"
+      ],
+      "faks": null,
+      "web": "https://bodrum.adalet.gov.tr"
+    },
+    {
+      "id": "fethiye",
+      "tur": "adliye",
+      "il": "Muğla",
+      "ad": "Fethiye Adliyesi",
+      "adres": "AKARCA MAHALLESİ. MUSTAFA KEMAL BULVARI NO : 210 FETHİYE / MUĞLA",
+      "telefonlar": [
+        "0 (252) 613 66 19",
+        "0 (252) 613 66 20",
+        "0 (252) 613 66 40"
+      ],
+      "faks": null,
+      "web": "https://fethiye.adalet.gov.tr"
+    },
+    {
+      "id": "milas",
+      "tur": "adliye",
+      "il": "Muğla",
+      "ad": "Milas Adliyesi",
+      "adres": "Güneş Mahallesi, Labranda Bulvarı, No:53 Milas Adliyesi, 48200 Milas/MUĞLA",
+      "telefonlar": [
+        "0 (252) 512 14 65",
+        "0 (252) 512 91 91"
+      ],
+      "faks": null,
+      "web": "https://milas.adalet.gov.tr"
+    },
+    {
+      "id": "mugla",
+      "tur": "adliye",
+      "il": "Muğla",
+      "ad": "Muğla Adliyesi",
+      "adres": "Muslihittin Mahallesi Atatürk Bulvarı No:25 48000 Menteşe/Muğla",
+      "telefonlar": [
+        "0 (252) 212 97 85",
+        "0 (252) 214 04 50"
+      ],
+      "faks": null,
+      "web": "https://mugla.adalet.gov.tr"
+    },
+    {
+      "id": "mus",
+      "tur": "adliye",
+      "il": "Muş",
+      "ad": "Muş Adliyesi",
+      "adres": "1-Muş Adliyesi Ana Hizmet Binası: Kültür Mahallesi 75.Yıl Caddesi / 2-Muş Adliyesi Ek Hizmet Binası: Saray Mahallesi 259. Sok. No: 7",
+      "telefonlar": [
+        "0 (436) 212 15 91"
+      ],
+      "faks": null,
+      "web": "https://mus.adalet.gov.tr"
+    },
+    {
+      "id": "nevsehir",
+      "tur": "adliye",
+      "il": "Nevşehir",
+      "ad": "Nevşehir Adliyesi",
+      "adres": "20 Temmuz Mah. Mustafa Parmaksız Cd. No:37 Merkez/NEVŞEHİR",
+      "telefonlar": [
+        "0 (384) 213 30 40",
+        "0 (384) 213 57 48"
+      ],
+      "faks": null,
+      "web": "https://nevsehir.adalet.gov.tr"
+    },
+    {
+      "id": "nigde",
+      "tur": "adliye",
+      "il": "Niğde",
+      "ad": "Niğde Adliyesi",
+      "adres": "Şahin Ali Mahallesi Emin Erişingil Caddesi 51100 Merkez / Niğde",
+      "telefonlar": [
+        "0 (388) 232 33 80"
+      ],
+      "faks": "0 (388) 233 45 75",
+      "web": "https://nigde.adalet.gov.tr"
+    },
+    {
+      "id": "ordu",
+      "tur": "adliye",
+      "il": "Ordu",
+      "ad": "Ordu Adliyesi",
+      "adres": "Karşıyaka Mahallesi Atatürk Bulvarı No:506 Altınordu/ORDU",
+      "telefonlar": [
+        "0 (452) 700 20 00"
+      ],
+      "faks": null,
+      "web": "https://ordu.adalet.gov.tr"
+    },
+    {
+      "id": "unye",
+      "tur": "adliye",
+      "il": "Ordu",
+      "ad": "Ünye Adliyesi",
+      "adres": "Liseler Mahallesi Savcı Erol TOSUN Caddesi No:4 Ünye/ORDU",
+      "telefonlar": [
+        "0 (452) 310 33 33"
+      ],
+      "faks": null,
+      "web": "https://unye.adalet.gov.tr"
+    },
+    {
+      "id": "osmaniye",
+      "tur": "adliye",
+      "il": "Osmaniye",
+      "ad": "Osmaniye Adliyesi",
+      "adres": "Adnan Menderes Mahallesi Adnan Menderes Bulvarı Valilik Kompleksi Merkez/OSMANİYE",
+      "telefonlar": [
+        "0 (328) 826 56 98",
+        "0 (328) 826 18 60"
+      ],
+      "faks": "0 (328) 826 18 62",
+      "web": "https://osmaniye.adalet.gov.tr"
+    },
+    {
+      "id": "rize",
+      "tur": "adliye",
+      "il": "Rize",
+      "ad": "Rize Adliyesi",
+      "adres": "Müftü Mahallesi Menderes Bulvarı Merkez/Rize",
+      "telefonlar": [
+        "0 (464) 213 03 18",
+        "0 (464) 213 03 23"
+      ],
+      "faks": null,
+      "web": "https://rize.adalet.gov.tr"
+    },
+    {
+      "id": "sakarya",
+      "tur": "adliye",
+      "il": "Sakarya",
+      "ad": "Sakarya Adliyesi",
+      "adres": "SAKARYA ADALET DAİRESİ RESMİ DAİRELER KAMPÜSÜ CAMİLİ / ADAPAZARI",
+      "telefonlar": [
+        "0 (264) 251 37 00"
+      ],
+      "faks": null,
+      "web": "https://sakarya.adalet.gov.tr"
+    },
+    {
+      "id": "bafra",
+      "tur": "adliye",
+      "il": "Samsun",
+      "ad": "Bafra Adliyesi",
+      "adres": "Emirefendi Mah.Emirefedi Cad.No:1 Bafra/Samsun",
+      "telefonlar": [
+        "0 (362) 543 53 25"
+      ],
+      "faks": "0 (362) 542 82 32",
+      "web": "https://bafra.adalet.gov.tr"
+    },
+    {
+      "id": "carsamba",
+      "tur": "adliye",
+      "il": "Samsun",
+      "ad": "Çarşamba Adliyesi",
+      "adres": "Çay Mah. Mustafa Kemal Güneşdoğdu Cad. No:2 Çarşamba/SAMSUN",
+      "telefonlar": [
+        "0 (362) 833 89 54"
+      ],
+      "faks": "0 (362) 833 67 00",
+      "web": "https://carsamba.adalet.gov.tr"
+    },
+    {
+      "id": "samsun",
+      "tur": "adliye",
+      "il": "Samsun",
+      "ad": "Samsun Adliyesi",
+      "adres": "Kılıçdede Mahallesi Muhittin Özkefeli Bulvarı No: 5 İlkadım / SAMSUN",
+      "telefonlar": [
+        "0 (362) 311 55 00"
+      ],
+      "faks": "0 (362) 311 56 03",
+      "web": "https://samsun.adalet.gov.tr"
+    },
+    {
+      "id": "vezirkopru",
+      "tur": "adliye",
+      "il": "Samsun",
+      "ad": "Vezirköprü Adliyesi",
+      "adres": "Adres : Esentepe Mahallesi 405. Sokak No:2 Vezirköprü/Samsun",
+      "telefonlar": [
+        "0 (362) 647 17 28"
+      ],
+      "faks": "0 (362) 646 46 70",
+      "web": "https://vezirkopru.adalet.gov.tr"
+    },
+    {
+      "id": "siirt",
+      "tur": "adliye",
+      "il": "Siirt",
+      "ad": "Siirt Adliyesi",
+      "adres": "Barış Mahallesi Şehit Savcı Mehmet Selim Kiraz Caddesi -No:26 SİİRT/MERKEZ",
+      "telefonlar": [
+        "0 (484) 223 10 25"
+      ],
+      "faks": "0 (484) 223 53 75",
+      "web": "https://siirt.adalet.gov.tr"
+    },
+    {
+      "id": "boyabat",
+      "tur": "adliye",
+      "il": "Sinop",
+      "ad": "Boyabat Adliyesi",
+      "adres": "Camiikebir Mahallesi, Adnan Menderes Bulv. No:44 D:1, 57200 Boyabat/Sinop",
+      "telefonlar": [
+        "0 (368) 315 10 85",
+        "0 (368) 315 12 04"
+      ],
+      "faks": null,
+      "web": "https://boyabat.adalet.gov.tr"
+    },
+    {
+      "id": "sinop",
+      "tur": "adliye",
+      "il": "Sinop",
+      "ad": "Sinop Adliyesi",
+      "adres": "Kefevi Mah. Hükümet Meydanı No: 4, 57000 Merkez / Sinop",
+      "telefonlar": [
+        "0 (368) 261 25 46",
+        "0 (368) 261 26 41"
+      ],
+      "faks": null,
+      "web": "https://sinop.adalet.gov.tr"
+    },
+    {
+      "id": "sivas",
+      "tur": "adliye",
+      "il": "Sivas",
+      "ad": "Sivas Adliyesi",
+      "adres": "Gültepe Mah. Sultan Şehir Bulvarı No:9 Merkez /SİVAS",
+      "telefonlar": [
+        "0 (346) 221 51 75",
+        "0 (346) 224 22 40"
+      ],
+      "faks": null,
+      "web": "https://sivas.adalet.gov.tr"
+    },
+    {
+      "id": "siverek",
+      "tur": "adliye",
+      "il": "Şanlıurfa",
+      "ad": "Siverek Adliyesi",
+      "adres": "Güney Mahallesi Atatürk Bulvarı no:38 63600 Siverek / ŞANLIURFA",
+      "telefonlar": [
+        "0 (414) 552 20 60",
+        "0 (414) 552 20 61",
+        "0 (414) 552 20 62"
+      ],
+      "faks": "0 (414) 552 55 78",
+      "web": "https://siverek.adalet.gov.tr"
+    },
+    {
+      "id": "sanliurfa",
+      "tur": "adliye",
+      "il": "Şanlıurfa",
+      "ad": "Şanlıurfa Adliyesi",
+      "adres": "Paşabağı Mahallesi Adalet Caddesi, 775. Sokak 28 C, 63040 Haliliye / Şanlıurfa",
+      "telefonlar": [
+        "0 (414) 313 10 25"
+      ],
+      "faks": "0 (414) 313 48 41",
+      "web": "https://sanliurfa.adalet.gov.tr"
+    },
+    {
+      "id": "viransehir",
+      "tur": "adliye",
+      "il": "Şanlıurfa",
+      "ad": "Viranşehir Adliyesi",
+      "adres": "Yenişehir, 63700 Viranşehir/Şanlıurfa",
+      "telefonlar": [
+        "0 (414) 511 31 72",
+        "0 (414) 511 52 93",
+        "0 (414) 511 39 59"
+      ],
+      "faks": null,
+      "web": "https://viransehir.adalet.gov.tr"
+    },
+    {
+      "id": "cizre",
+      "tur": "adliye",
+      "il": "Şırnak",
+      "ad": "Cizre Adliyesi",
+      "adres": "Kale Mahallesi Şerafettin Elçi Caddesi No:2 Cizre/ŞIRNAK",
+      "telefonlar": [
+        "0 (486) 616 19 21"
+      ],
+      "faks": "0 (486) 616 34 64",
+      "web": "https://cizre.adalet.gov.tr"
+    },
+    {
+      "id": "sirnak",
+      "tur": "adliye",
+      "il": "Şırnak",
+      "ad": "Şırnak Adliyesi",
+      "adres": "Atatürk Mahallesi Zübeyde Hanım Caddesi Sanat Sokağı Hükümet Konağı Yanı Merkez/Şırnak",
+      "telefonlar": [
+        "0 (486) 216 10 02"
+      ],
+      "faks": null,
+      "web": "https://sirnak.adalet.gov.tr"
+    },
+    {
+      "id": "cerkezkoy",
+      "tur": "adliye",
+      "il": "Tekirdağ",
+      "ad": "Çerkezköy Adliyesi",
+      "adres": "Fatih Mahallesi Malkoçoğlu Caddesi No: 41 59500 Çerkezköy/Tekirdağ",
+      "telefonlar": [
+        "0 (282) 726 25 00"
+      ],
+      "faks": null,
+      "web": "https://cerkezkoy.adalet.gov.tr"
+    },
+    {
+      "id": "corlu",
+      "tur": "adliye",
+      "il": "Tekirdağ",
+      "ad": "Çorlu Adliyesi",
+      "adres": "Zafer Mahallesi Bülent Ecevit Bulvarı No : 39/1 Çorlu / TEKİRDAĞ",
+      "telefonlar": [
+        "0 (282) 673 83 90"
+      ],
+      "faks": null,
+      "web": "https://corlu.adalet.gov.tr"
+    },
+    {
+      "id": "tekirdag",
+      "tur": "adliye",
+      "il": "Tekirdağ",
+      "ad": "Tekirdağ Adliyesi",
+      "adres": "Vatan Mahallesi Barbaros Caddesi 59100 Süleymanpaşa / TEKİRDAĞ",
+      "telefonlar": [
+        "0 (282) 262 66 63",
+        "0 (282) 261 86 05",
+        "0 (282) 262 48 55",
+        "0 (282) 261 53 81",
+        "0 (282) 261 92 25",
+        "0 (282) 262 14 13",
+        "0 (282) 260 18 52",
+        "0 (282) 263 50 33"
+      ],
+      "faks": null,
+      "web": "https://tekirdag.adalet.gov.tr"
+    },
+    {
+      "id": "tokat",
+      "tur": "adliye",
+      "il": "Tokat",
+      "ad": "Tokat Adliyesi",
+      "adres": "Perakende Mahallesi Tokat Adalet Sarayı - TOKAT",
+      "telefonlar": [
+        "0 (356) 214 99 00",
+        "0 (356) 214 46 90"
+      ],
+      "faks": null,
+      "web": "https://tokat.adalet.gov.tr"
+    },
+    {
+      "id": "zile",
+      "tur": "adliye",
+      "il": "Tokat",
+      "ad": "Zile Adliyesi",
+      "adres": "Cumhuriyet Cad. No :32 Adalet Sarayı Zile / TOKAT",
+      "telefonlar": [
+        "0 (356) 317 55 09",
+        "0 (356) 317 57 68"
+      ],
+      "faks": null,
+      "web": "https://zile.adalet.gov.tr"
+    },
+    {
+      "id": "tunceli",
+      "tur": "adliye",
+      "il": "Tunceli",
+      "ad": "Tunceli Adliyesi",
+      "adres": "Aktuluk Mahallesi Munzur Üniversitesi Yerleşkesi Merkez Kütüphane Binası Merkez/TUNCELİ",
+      "telefonlar": [
+        "0 (428) 213 31 03"
+      ],
+      "faks": "0 (428) 213 31 02",
+      "web": "https://tunceli.adalet.gov.tr"
+    },
+    {
+      "id": "usak",
+      "tur": "adliye",
+      "il": "Uşak",
+      "ad": "Uşak Adliyesi",
+      "adres": "Adres: Fevzi Çakmak Mah. İstiklal Caddesi No:85 UŞAK (İzmir-Ankara Yolu Üzeri)",
+      "telefonlar": [
+        "0 (276) 231 50 10"
+      ],
+      "faks": "0 (276) 224 31 27",
+      "web": "https://usak.adalet.gov.tr"
+    },
+    {
+      "id": "ercis",
+      "tur": "adliye",
+      "il": "Van",
+      "ad": "Erciş Adliyesi",
+      "adres": "Sahil Kent Mah. Çevik Kuvvet Sok .Dış Kapı No: 4 (UAVT:1889586812) 65400 ERCİŞ/VAN",
+      "telefonlar": [
+        "0 (432) 388 31 84"
+      ],
+      "faks": "0 (432) 388 31 87",
+      "web": "https://ercis.adalet.gov.tr"
+    },
+    {
+      "id": "van",
+      "tur": "adliye",
+      "il": "Van",
+      "ad": "Van Adliyesi",
+      "adres": "Selimbey Mah. İpekyolu Bulvarı No:24 65100 İpekyolu/VAN",
+      "telefonlar": [
+        "0 (432) 214 94 02",
+        "0 (432) 216 08 02"
+      ],
+      "faks": "0 (432) 215 29 24",
+      "web": "https://van.adalet.gov.tr"
+    },
+    {
+      "id": "bogazliyan",
+      "tur": "adliye",
+      "il": "Yozgat",
+      "ad": "Boğazlıyan Adliyesi",
+      "adres": "Yukarı Mahalle, Ali İhsan Kadıoğlu Caddesi, No:40 Boğazlıyan/YOZGAT",
+      "telefonlar": [
+        "0 (354) 645 11 09"
+      ],
+      "faks": "0 (354) 645 22 93",
+      "web": "https://bogazliyan.adalet.gov.tr"
+    },
+    {
+      "id": "yozgat",
+      "tur": "adliye",
+      "il": "Yozgat",
+      "ad": "Yozgat Adliyesi",
+      "adres": "Adnan Menderes Bulvarı 66100 Yozgat",
+      "telefonlar": [
+        "0 (354) 212 55 08"
+      ],
+      "faks": null,
+      "web": "https://yozgat.adalet.gov.tr"
+    },
+    {
+      "id": "zonguldak",
+      "tur": "adliye",
+      "il": "Zonguldak",
+      "ad": "Zonguldak Adliyesi",
+      "adres": "Zonguldak Adliyesi Yayla Mah. Ömer Barutçu Cad.No:22 Merkez / Zonguldak",
+      "telefonlar": [
+        "0 (372) 252 11 52",
+        "0 (372) 253 11 43"
+      ],
+      "faks": null,
+      "web": "https://zonguldak.adalet.gov.tr"
+    }
+  ]
+}

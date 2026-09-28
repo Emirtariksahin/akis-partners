@@ -3,7 +3,6 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ArrowUp, MessageCircle, Phone, X } from "lucide-react";
-import Link from "next/link";
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -13,7 +12,7 @@ function WhatsAppIcon({ className }: { className?: string }) {
   );
 }
 
-export function FloatingElements() {
+export function FloatingElements({ telefonLink, whatsapp }: { telefonLink: string; whatsapp: string }) {
   const [showTopBtn, setShowTopBtn] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
@@ -70,8 +69,8 @@ export function FloatingElements() {
             >
               <h4 className="font-serif text-lg mb-3 text-foreground">Hangisini tercih edersiniz?</h4>
               <div className="flex flex-col gap-2">
-                <Link
-                  href="https://wa.me/903120000000"
+                <a
+                  href={`https://wa.me/${whatsapp}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 p-3 rounded-xl hover:bg-surface transition-colors text-foreground"
@@ -83,10 +82,10 @@ export function FloatingElements() {
                     <div className="font-sans font-medium text-sm">WhatsApp</div>
                     <div className="font-sans text-xs opacity-60">Hızlıca mesaj gönderin</div>
                   </div>
-                </Link>
+                </a>
 
-                <Link
-                  href="tel:+903120000000"
+                <a
+                  href={`tel:${telefonLink}`}
                   className="flex items-center gap-3 p-3 rounded-xl hover:bg-surface transition-colors text-foreground"
                 >
                   <div className="w-10 h-10 rounded-full bg-accent text-white flex items-center justify-center shrink-0">
@@ -96,7 +95,7 @@ export function FloatingElements() {
                     <div className="font-sans font-medium text-sm">Telefon</div>
                     <div className="font-sans text-xs opacity-60">Doğrudan bizi arayın</div>
                   </div>
-                </Link>
+                </a>
               </div>
             </motion.div>
           )}

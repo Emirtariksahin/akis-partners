@@ -53,7 +53,7 @@ export function ContactCTASection() {
           transition={{ duration: 1, delay: 0.2 }}
           className="font-sans text-sm md:text-base opacity-70 max-w-md mx-auto mb-12"
         >
-          İlk görüşmeniz için bizimle iletişime geçin. Sizi dinlemek ve stratejik yol haritanızı oluşturmak için buradayız.
+          Görüşme talebiniz için bizimle iletişime geçebilirsiniz. Başvurunuz değerlendirilerek size en kısa sürede dönüş yapılır.
         </motion.p>
         
         <motion.div
@@ -62,7 +62,7 @@ export function ContactCTASection() {
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1, delay: 0.4 }}
         >
-          <MagneticButton href="/iletisim" variant="primary" showArrow data-cursor-text="BAŞLA">
+          <MagneticButton href="/iletisim" variant="primary" showArrow>
             Görüşme Talep Et
           </MagneticButton>
         </motion.div>

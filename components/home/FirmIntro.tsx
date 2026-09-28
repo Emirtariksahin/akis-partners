@@ -62,6 +62,7 @@ export function FirmIntro() {
           src="/akislogo.png"
           alt="Watermark"
           fill
+          sizes="600px"
           className="object-contain opacity-50 dark:invert dark:opacity-20"
         />
       </motion.div>
