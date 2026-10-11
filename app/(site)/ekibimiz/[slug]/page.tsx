@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Mail, ArrowUpRight } from "lucide-react";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
+import { JsonLd } from "@/components/site/JsonLd";
 import { FadeIn } from "@/components/site/FadeIn";
 import { Prose } from "@/components/site/Prose";
 import { Portre, TeamCard } from "@/components/site/TeamCard";
 import { getEkip, getEkipUyesi } from "@/lib/content";
+import { personJsonLd } from "@/lib/json-ld";
 
 export const dynamicParams = false;
 
@@ -20,7 +22,9 @@ export async function generateMetadata({ params }: PageProps<"/ekibimiz/[slug]">
   if (!uye) return {};
   return {
     title: `Av. ${uye.ad}`,
-    description: uye.kisaTanitim || `Av. ${uye.ad} – ${uye.unvan}`,
+    description:
+      uye.kisaTanitim ||
+      `Av. ${uye.ad} – ${uye.unvan}, Akış Partners Hukuk & Danışmanlık.${uye.baro ? ` ${uye.baro}na kayıtlı avukat.` : ""}`,
     alternates: { canonical: `/ekibimiz/${slug}` },
   };
 }
@@ -43,6 +47,7 @@ export default async function EkipUyesiPage({ params }: PageProps<"/ekibimiz/[sl
 
   return (
     <div className="pt-48 md:pt-64 pb-32 bg-background">
+      <JsonLd data={personJsonLd(uye)} />
       <div className="container mx-auto px-6 md:px-12">
         <Breadcrumbs
           adimlar={[

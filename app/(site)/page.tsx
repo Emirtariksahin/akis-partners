@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { HeroSection } from "@/components/home/HeroSection";
 import { FirmIntro } from "@/components/home/FirmIntro";
 import { ExpertiseSection } from "@/components/home/ExpertiseSection";
@@ -7,12 +8,21 @@ import { ToolsSection } from "@/components/home/ToolsSection";
 import { FeaturedArticlesSection } from "@/components/home/FeaturedArticles";
 import { ContactCTASection } from "@/components/home/ContactCTASection";
 import { JsonLd } from "@/components/site/JsonLd";
-import { getFaaliyetAlanlari, getMakaleler, getSiteAyarlari } from "@/lib/content";
+import { getEkip, getFaaliyetAlanlari, getMakaleler, getSiteAyarlari } from "@/lib/content";
 import { FAALIYET_KATEGORILERI } from "@/lib/taxonomy";
 import { legalServiceJsonLd } from "@/lib/json-ld";
 
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
+
 export default async function Home() {
-  const [alanlar, makaleler, ayarlar] = await Promise.all([getFaaliyetAlanlari(), getMakaleler(), getSiteAyarlari()]);
+  const [alanlar, makaleler, ayarlar, ekip] = await Promise.all([
+    getFaaliyetAlanlari(),
+    getMakaleler(),
+    getSiteAyarlari(),
+    getEkip(),
+  ]);
 
   const kategoriler = FAALIYET_KATEGORILERI.map((k, i) => {
     const kategoriAlanlari = alanlar.filter((a) => a.kategori === k.value);
@@ -35,7 +45,7 @@ export default async function Home() {
 
   return (
     <>
-      <JsonLd data={legalServiceJsonLd(ayarlar)} />
+      <JsonLd data={legalServiceJsonLd(ayarlar, ekip)} />
       <HeroSection />
       <FirmIntro />
       <ExpertiseSection kategoriler={kategoriler} toplamAlan={alanlar.length} />

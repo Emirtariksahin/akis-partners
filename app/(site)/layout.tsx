@@ -26,6 +26,8 @@ const manrope = Manrope({
   display: "swap",
 });
 
+const VARSAYILAN_GORSEL = { url: "/opengraph-image", width: 1200, height: 630, alt: "Akış Partners Hukuk & Danışmanlık" };
+
 const ACIKLAMA =
   "Ankara merkezli Akış Partners; bireysel ve kurumsal müvekkillere avukatlık ve hukuki danışmanlık hizmeti sunar.";
 
@@ -39,8 +41,10 @@ export const metadata: Metadata = {
     description: ACIKLAMA,
     type: "website",
     locale: "tr_TR",
+    // Görsel app/opengraph-image.tsx tarafından üretilir; alt sayfalar openGraph tanımlarsa bu satırı tekrarlamalıdır.
+    images: [VARSAYILAN_GORSEL],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: { card: "summary_large_image", images: [VARSAYILAN_GORSEL] },
 };
 
 export default async function SiteLayout({ children }: { children: React.ReactNode }) {

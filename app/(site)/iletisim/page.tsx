@@ -4,7 +4,7 @@ import { PageHeader } from "@/components/site/PageHeader";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { ContactForm } from "@/components/site/ContactForm";
 import { JsonLd } from "@/components/site/JsonLd";
-import { getSiteAyarlari } from "@/lib/content";
+import { getEkip, getSiteAyarlari } from "@/lib/content";
 import { legalServiceJsonLd } from "@/lib/json-ld";
 
 export const metadata: Metadata = {
@@ -26,12 +26,12 @@ function Blok({ baslik, Icon, children }: { baslik: string; Icon: typeof Mail; c
 }
 
 export default async function IletisimPage() {
-  const ayarlar = await getSiteAyarlari();
+  const [ayarlar, ekip] = await Promise.all([getSiteAyarlari(), getEkip()]);
   const yolTarifi = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(ayarlar.haritaSorgusu)}`;
 
   return (
     <div className="pt-48 md:pt-64 pb-32 bg-background">
-      <JsonLd data={legalServiceJsonLd(ayarlar)} />
+      <JsonLd data={legalServiceJsonLd(ayarlar, ekip)} />
       <div className="container mx-auto px-6 md:px-12">
         <Breadcrumbs adimlar={[{ ad: "İletişim", yol: "/iletisim" }]} />
         <PageHeader eyebrow="İletişim" title="Hukuki sürecinizi konuşalım." />

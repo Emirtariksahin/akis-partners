@@ -31,22 +31,22 @@ export function IntroLoader() {
           exit={{ opacity: 0, transition: { duration: 0.8, ease: "easeInOut" } }}
         >
           <div className="flex flex-col items-center overflow-hidden">
-            <motion.h1 
+            <motion.div
               className="text-4xl md:text-7xl font-serif font-light tracking-[0.2em] mb-2"
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 1, ease: [0.76, 0, 0.24, 1] }}
             >
               AKIŞ
-            </motion.h1>
-            <motion.h2
+            </motion.div>
+            <motion.div
               className="text-2xl md:text-4xl font-serif font-light tracking-[0.4em] opacity-70"
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.2, ease: [0.76, 0, 0.24, 1] }}
             >
               PARTNERS
-            </motion.h2>
+            </motion.div>
             <motion.div 
               className="h-[1px] bg-accent mt-8"
               initial={{ width: 0 }}

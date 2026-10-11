@@ -3,10 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
+import { JsonLd } from "@/components/site/JsonLd";
 import { FadeIn } from "@/components/site/FadeIn";
 import { Prose } from "@/components/site/Prose";
 import { Portre } from "@/components/site/TeamCard";
-import { getEkipUyesi, getFaaliyetAlani, getMakale, getMakaleler } from "@/lib/content";
+import { getEkipUyesi, getFaaliyetAlani, getMakale, getMakaleler, getSiteAyarlari } from "@/lib/content";
+import { articleJsonLd } from "@/lib/json-ld";
 import { formatTarih } from "@/lib/format";
 
 export const dynamicParams = false;
@@ -24,12 +26,15 @@ export async function generateMetadata({ params }: PageProps<"/makaleler/[slug]"
     title: makale.baslik,
     description: makale.ozet,
     alternates: { canonical: `/makaleler/${slug}` },
+    // Alt sayfadaki openGraph üst katmandakini tamamen ezer; site adı, dil ve varsayılan görsel burada yeniden verilir.
     openGraph: {
       type: "article",
+      siteName: "Akış Partners Hukuk & Danışmanlık",
+      locale: "tr_TR",
       title: makale.baslik,
       description: makale.ozet,
       publishedTime: makale.tarih ?? undefined,
-      ...(makale.kapak && { images: [makale.kapak] }),
+      images: [makale.kapak ?? "/opengraph-image"],
     },
   };
 }
@@ -39,13 +44,25 @@ export default async function MakalePage({ params }: PageProps<"/makaleler/[slug
   const makale = await getMakale(slug);
   if (!makale) notFound();
 
-  const [yazar, alan] = await Promise.all([
+  const [yazar, alan, ayarlar] = await Promise.all([
     makale.yazar ? getEkipUyesi(makale.yazar) : null,
     makale.faaliyetAlani ? getFaaliyetAlani(makale.faaliyetAlani) : null,
+    getSiteAyarlari(),
   ]);
 
   return (
     <article className="pt-48 md:pt-64 pb-32 bg-background">
+      <JsonLd
+        data={articleJsonLd({
+          slug,
+          baslik: makale.baslik,
+          ozet: makale.ozet,
+          tarih: makale.tarih,
+          kapak: makale.kapak,
+          yazar: yazar && { slug: yazar.slug, ad: yazar.ad },
+          unvan: ayarlar.unvan,
+        })}
+      />
       <div className="container mx-auto px-6 md:px-12">
         <Breadcrumbs
           adimlar={[
