@@ -14,9 +14,10 @@ const HeroScene = dynamic(() => import("../three/HeroScene").then(mod => mod.Her
 });
 
 export function HeroSection() {
+  // Mobil ve tablette metin ile terazi alt alta dizildiği için bölüm içeriğe göre uzar; aksi hâlde terazinin altı kesilir.
   return (
-    <section className="relative w-full h-[100svh] flex items-center overflow-hidden">
-      <div className="container mx-auto px-6 md:px-12 relative z-10 pt-64 md:pt-48">
+    <section className="relative w-full min-h-[100svh] lg:h-[100svh] flex items-center overflow-hidden">
+      <div className="container mx-auto px-6 md:px-12 relative z-10 pt-56 pb-12 md:pt-48 lg:pb-0">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-0">
           
           {/* Sol Taraf: Metin İçeriği */}

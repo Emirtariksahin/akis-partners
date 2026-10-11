@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { X } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
@@ -8,6 +9,9 @@ export function AnnouncementBar({ metin, gizli = false }: { metin: string; gizli
   // Metin değiştiğinde duyuru yeniden gösterilsin diye anahtara metin eklenir.
   const anahtar = `announcement-dismissed:${metin}`;
   const [isVisible, setIsVisible] = useState(false);
+  // Metindeki "iletişim" geçen kelime (ör. "iletişime") iletişim sayfasına bağlanır.
+  const eslesme = metin.match(/^(.*?)(\p{L}*iletişim\p{L}*)(.*)$/iu);
+  const parcalar = eslesme ? [eslesme[1], eslesme[2], eslesme[3]] : null;
 
   useEffect(() => {
     let kapatilmis = false;
@@ -41,7 +45,17 @@ export function AnnouncementBar({ metin, gizli = false }: { metin: string; gizli
           className="bg-accent text-background px-4 py-2 relative flex items-center justify-center overflow-hidden"
         >
           <p className="font-sans text-xs sm:text-sm tracking-wide text-center mr-8">
-            {metin}
+            {parcalar ? (
+              <>
+                {parcalar[0]}
+                <Link href="/iletisim" className="underline underline-offset-4 decoration-1 hover:decoration-2">
+                  {parcalar[1]}
+                </Link>
+                {parcalar[2]}
+              </>
+            ) : (
+              metin
+            )}
           </p>
           <button
             onClick={dismiss}
