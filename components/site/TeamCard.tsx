@@ -30,7 +30,7 @@ export function Portre({ ad, foto, className, sizes }: { ad: string; foto: strin
           alt={`Av. ${ad}`}
           fill
           sizes={sizes}
-          className="object-cover grayscale group-hover:grayscale-0 transition-all duration-700 ease-out group-hover:scale-105"
+          className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />
       ) : (
         <div className="absolute inset-0 flex items-center justify-center bg-foreground">
