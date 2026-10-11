@@ -103,7 +103,7 @@ export default config({
       columns: ["ad", "unvan"],
       schema: {
         ad: fields.slug({ name: { label: "Ad Soyad (\"Av.\" olmadan)", validation: { isRequired: true } }, slug: adres() }),
-        unvan: fields.text({ label: "Unvan", defaultValue: "Avukat" }),
+        unvan: fields.text({ label: "Unvan", defaultValue: "Kurucu Ortak" }),
         sira: fields.integer({ label: "Sıra", defaultValue: 0 }),
         foto: fields.image({ label: "Fotoğraf", directory: "public/images/ekip", publicPath: "/images/ekip/" }),
         baro: fields.text({ label: "Kayıtlı olduğu baro", defaultValue: "Ankara Barosu" }),
@@ -113,7 +113,6 @@ export default config({
         kisaTanitim: fields.text({ label: "Kısa tanıtım", multiline: true }),
         egitim: fields.array(fields.text({ label: "Eğitim" }), { label: "Eğitim", itemLabel: (p) => p.value }),
         diller: fields.array(fields.text({ label: "Dil" }), { label: "Yabancı diller", itemLabel: (p) => p.value }),
-        faaliyetAlanlari: fields.multiRelationship({ label: "Çalıştığı faaliyet alanları", collection: "faaliyetAlanlari" }),
         ozgecmis: fields.markdoc({ label: "Özgeçmiş" }),
       },
     }),

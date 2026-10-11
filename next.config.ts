@@ -24,6 +24,9 @@ const nextConfig: NextConfig = {
       // Eski prototip adresi. TBB Reklam Yasağı Yönetmeliği uyarınca "uzmanlık" ifadesi kullanılmıyor.
       { source: "/uzmanlik-alanlari", destination: "/faaliyet-alanlari", permanent: true },
       { source: "/uzmanlik-alanlari/:slug", destination: "/faaliyet-alanlari/:slug", permanent: true },
+      // Ekip profil adresleri tam ad-soyada göre güncellendi.
+      { source: "/ekibimiz/yagiz-mete", destination: "/ekibimiz/yagiz-mete-akkaya", permanent: true },
+      { source: "/ekibimiz/avukat-:no(2|3)", destination: "/ekibimiz", permanent: true },
     ];
   },
 };

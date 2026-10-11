@@ -67,22 +67,24 @@ export function FloatingElements({ telefonLink, whatsapp }: { telefonLink: strin
               exit={{ opacity: 0, scale: 0.9, y: 10 }}
               className="absolute bottom-16 right-0 w-64 bg-background border border-border rounded-2xl shadow-2xl p-4 origin-bottom-right"
             >
-              <h4 className="font-serif text-lg mb-3 text-foreground">Hangisini tercih edersiniz?</h4>
+              <h4 className="font-serif text-lg mb-3 text-foreground">{whatsapp ? "Hangisini tercih edersiniz?" : "Bize ulaşın"}</h4>
               <div className="flex flex-col gap-2">
-                <a
-                  href={`https://wa.me/${whatsapp}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-3 p-3 rounded-xl hover:bg-surface transition-colors text-foreground"
-                >
-                  <div className="w-10 h-10 rounded-full bg-[#25D366] text-white flex items-center justify-center shrink-0">
-                    <WhatsAppIcon className="w-5 h-5" />
-                  </div>
-                  <div>
-                    <div className="font-sans font-medium text-sm">WhatsApp</div>
-                    <div className="font-sans text-xs opacity-60">Hızlıca mesaj gönderin</div>
-                  </div>
-                </a>
+                {whatsapp && (
+                  <a
+                    href={`https://wa.me/${whatsapp}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-3 p-3 rounded-xl hover:bg-surface transition-colors text-foreground"
+                  >
+                    <div className="w-10 h-10 rounded-full bg-[#25D366] text-white flex items-center justify-center shrink-0">
+                      <WhatsAppIcon className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <div className="font-sans font-medium text-sm">WhatsApp</div>
+                      <div className="font-sans text-xs opacity-60">Hızlıca mesaj gönderin</div>
+                    </div>
+                  </a>
+                )}
 
                 <a
                   href={`tel:${telefonLink}`}

@@ -5,9 +5,8 @@ import { ArrowUpRight, Calculator } from "lucide-react";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { FadeIn } from "@/components/site/FadeIn";
 import { Prose } from "@/components/site/Prose";
-import { TeamCard } from "@/components/site/TeamCard";
 import { MagneticButton } from "@/components/ui/MagneticButton";
-import { getEkip, getFaaliyetAlani, getFaaliyetAlanlari, getMakaleler } from "@/lib/content";
+import { getFaaliyetAlani, getFaaliyetAlanlari, getMakaleler } from "@/lib/content";
 import { FAALIYET_KATEGORILERI, aracBaslik, aracHref, kategoriEtiketi } from "@/lib/taxonomy";
 import { formatTarih } from "@/lib/format";
 import { cn } from "@/lib/utils";
@@ -40,15 +39,13 @@ function anchor(metin: string) {
 
 export default async function FaaliyetAlaniPage({ params }: PageProps<"/faaliyet-alanlari/[slug]">) {
   const { slug } = await params;
-  const [alan, tumAlanlar, ekip, makaleler] = await Promise.all([
+  const [alan, tumAlanlar, makaleler] = await Promise.all([
     getFaaliyetAlani(slug),
     getFaaliyetAlanlari(),
-    getEkip(),
     getMakaleler(),
   ]);
   if (!alan) notFound();
 
-  const avukatlar = ekip.filter((u) => u.faaliyetAlanlari.includes(slug));
   const ilgiliMakaleler = makaleler.filter((m) => m.faaliyetAlani === slug).slice(0, 3);
 
   return (
@@ -112,17 +109,6 @@ export default async function FaaliyetAlaniPage({ params }: PageProps<"/faaliyet
                       <span className="font-serif text-lg group-hover:text-accent transition-colors">{aracBaslik(a)}</span>
                       <ArrowUpRight className="w-4 h-4 ml-auto opacity-40 group-hover:opacity-100 transition-opacity" />
                     </Link>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {avukatlar.length > 0 && (
-              <section className="mt-20">
-                <h2 className="font-sans text-xs tracking-widest uppercase text-accent mb-6">Bu alanda çalışan avukatlarımız</h2>
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
-                  {avukatlar.map((u) => (
-                    <TeamCard key={u.slug} slug={u.slug} ad={u.ad} unvan={u.unvan} foto={u.foto} kompakt />
                   ))}
                 </div>
               </section>

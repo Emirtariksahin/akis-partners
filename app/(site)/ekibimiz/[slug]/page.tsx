@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Mail, ArrowUpRight } from "lucide-react";
 import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { FadeIn } from "@/components/site/FadeIn";
 import { Prose } from "@/components/site/Prose";
 import { Portre, TeamCard } from "@/components/site/TeamCard";
-import { getEkip, getEkipUyesi, getFaaliyetAlanlari } from "@/lib/content";
+import { getEkip, getEkipUyesi } from "@/lib/content";
 
 export const dynamicParams = false;
 
@@ -37,10 +36,9 @@ function BilgiSatiri({ etiket, children }: { etiket: string; children: React.Rea
 
 export default async function EkipUyesiPage({ params }: PageProps<"/ekibimiz/[slug]">) {
   const { slug } = await params;
-  const [uye, ekip, alanlar] = await Promise.all([getEkipUyesi(slug), getEkip(), getFaaliyetAlanlari()]);
+  const [uye, ekip] = await Promise.all([getEkipUyesi(slug), getEkip()]);
   if (!uye) notFound();
 
-  const uyeAlanlari = alanlar.filter((a) => uye.faaliyetAlanlari.includes(a.slug));
   const digerleri = ekip.filter((u) => u.slug !== slug);
 
   return (
@@ -88,21 +86,6 @@ export default async function EkipUyesiPage({ params }: PageProps<"/ekibimiz/[sl
                 </BilgiSatiri>
               )}
               {uye.diller.length > 0 && <BilgiSatiri etiket="Yabancı dil">{uye.diller.join(", ")}</BilgiSatiri>}
-              {uyeAlanlari.length > 0 && (
-                <BilgiSatiri etiket="Çalışma alanları">
-                  <div className="flex flex-wrap gap-2">
-                    {uyeAlanlari.map((a) => (
-                      <Link
-                        key={a.slug}
-                        href={`/faaliyet-alanlari/${a.slug}`}
-                        className="px-2.5 py-1 border border-border hover:border-accent hover:text-accent transition-colors"
-                      >
-                        {a.baslik}
-                      </Link>
-                    ))}
-                  </div>
-                </BilgiSatiri>
-              )}
               {uye.eposta && (
                 <BilgiSatiri etiket="E-posta">
                   <a href={`mailto:${uye.eposta}`} className="inline-flex items-center gap-2 hover:text-accent transition-colors break-all">
