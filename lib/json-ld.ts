@@ -9,12 +9,19 @@ const BURO_ID = `${SITE_URL}/#buro`;
 
 const mutlak = (yol: string) => (yol.startsWith("http") ? yol : `${SITE_URL}${yol}`);
 
-/** "…\nYenimahalle / Ankara" biçimindeki açık adresi sokak, ilçe ve il olarak ayırır. */
+/** "…\n06200 Yenimahalle / Ankara" biçimindeki açık adresi sokak, posta kodu, ilçe ve il olarak ayırır. */
 function adresParcala(adres: string) {
   const satirlar = adres.split("\n").map((s) => s.trim()).filter(Boolean);
-  const [ilce, il] = (satirlar.at(-1) ?? "").split("/").map((s) => s.trim());
+  const sonSatir = satirlar.at(-1) ?? "";
+  const postaKodu = sonSatir.match(/^\d{5}\b/)?.[0];
+  const [ilce, il] = sonSatir.replace(/^\d{5}\s*/, "").split("/").map((s) => s.trim());
   if (satirlar.length < 2 || !il) return { streetAddress: satirlar.join(", "), addressLocality: "Ankara" };
-  return { streetAddress: satirlar.slice(0, -1).join(", "), addressLocality: ilce, addressRegion: il };
+  return {
+    streetAddress: satirlar.slice(0, -1).join(", "),
+    ...(postaKodu && { postalCode: postaKodu }),
+    addressLocality: ilce,
+    addressRegion: il,
+  };
 }
 
 /** "Pazartesi – Cuma / 09:00 – 18:00" biçimindeki çalışma saatlerini schema.org'a çevirir; tanınmazsa boş döner. */
